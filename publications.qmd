@@ -62,7 +62,7 @@ about:
 
  **3- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** 2023 (submitted)
 
-  **2- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **** (submitted)
+  **2- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C** (submitted)
 
  **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.
 
