@@ -1,0 +1,53 @@
+---
+title: "Anomaly detection"
+editor: visual
+image: ../img/anomaly.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+Anomaly detection aims at identifying rare items, events or observations which deviate significantly from the majority of the data and do not conform to a well defined notion of normal behaviour.
+
+## Anomaly detection in multivariate timeseries
+
+we developed DITAN, a novel unsupervised domain-agnostic framework for detecting and interpreting temporal-based anomalies. It is based on an encoder-decoder architecture with both implicit/explicit attention and adjustable layers/units for predicting normality as regular patterns in sequential data. A two-stage thresholding methodology with built-in pruning is used to detect anomalies, while root cause and similarities are interpreted in data and units space. Our approach is designed to intersect the 9 fundamental characteristics extracted from the union of related works. We demonstrate the DITAN modules on real-world datasets of 6 multivariate time series contaminated by point and contextual temporal-based anomalies at a varying duration. Experiments show a dominant predictability power of DITAN against the originally proposed models. DITAN is able to determine critical regions and thus identify anomalous events similarly well. Informative similarities between anomalous records are interpreted, since almost all similarities in units space are also verified in data space.
+
+<center>
+<img src="../img/ditan_architecture.png" alt= “” width="600" >
+</center>
+
+
+### Related publications
+
+1. ·  M Giannoulis, A Harris, V Barra, DITAN: A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies, **Pattern Recognition** 2023 (accepted)
+
+
+
+## Anomaly detection in High Particle Physics
+In this study, we were interested in the search for new physics beyond the Standard Model of particle physics. The experimental setup used the ATLAS experiment based at the Large Hadron Collider (LHC) at CERN. This experiment provides a great amount of high energy collision data that might contain evidence of this new physics. Up to now, many analyses were performed using different techniques including some based on Machine Learning. The objective of this work is to present an alternative analysis strategy based on unsupervised Machine Learning algorithms, as well as techniques that
+don't depend on any theoretical physics theory. 
+
+The BumpHunter algorithm we developed  allows to evaluate the significance of a localized deviation with respect to a reference background without making any
+hypothesis on the signal that causes the deviation. 
+
+
+<center>
+<img src="../img/bumphunter.png" alt= “” width="600" >
+</center>
+
+A second algorithm using a GAN-AE defined an anomaly detection method based on unsupervised neural networks. The GAN-AE was developed in a way that allows for background model extraction directly from the data without any prior hypothesis.
+
+<center>
+<img src="../img/ganae1.png" alt= “” width="600" >
+</center>
+
+### Related publications
+
+1. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://scipost.org/submission/2208.14760v4/"target="_blank"> pyBumpHunter: A model independent bump hunting tool in Python for High Energy Physics analyses </a>, **SciPost**, 2023 (accepted)
+
+2. L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **Preprint ArXiv**, 2023.
+
+3. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.

@@ -1,0 +1,26 @@
+---
+title: "Social Robotics"
+editor: visual
+image: ../img/robot.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+
+<img src="../img/socrobot.png" alt= “” width="500" >
+
+At the interface between Humanities and Engineering Sciences, we develop research activities on “Human Robotics and Cognition”. We aim at understanding the influence of human-robot socio-humanoid interactions (by comparison with interactions between humans or between humans and virtual avatars in immersive reality) on cognitive, cerebral and neurophysiological processes and ultimately the performance of individuals involved in these interactions. At the center of our research is the recording of the so-called error wave detectable by electroencephalography at the level of the anterior cingulate cortex (occurring 100 to 150 ms after the production of an error in tasks involving a conflict of responses) , never explored in human-machine interactions. 
+
+The challenge is to master the behavioral and cognitive consequences of new digital technologies, including machine and deep learniing, virtual-immersive reality and humanoid social robotics at the center of our project.
+
+## Related publications
+---
+
+1. A Fabre, V Barra, N Spatola, JC Croizet, L Ferrand, C Bouquet, P Chausse, S Monceau, P Huguet. Automatisation par intelligence artificielle des conditions d’anthropomorphisation d’un robot socio-humanoïde avec le jeu du Memory. In **Workshop sur les “Affects, Compagnons Artificiels et Interactions”**, 2020.
+ 2. K Le Cornec, V Barra. Détection d'émotions sur données multimodales restreintes par réseaux triples. In **Proc of CAP 2019**, 2019.
+ 3. N Spatola, C Belletier, P Chausse, M Augustinova, A Normand, V Barra, L Ferrand, P Huguet. <a href="https://link.springer.com/article/10.1007/s12369-018-00511-w" target="_blank">Improved cognitive control in presence of anthropomorphized robots</a>. **International Journal of Social Robotics**, 2019.
+ 4. N Spatola, C Belletier, A Normand, P Chausse, S Monceau, M Augustinova, V Barra, P Huguet, L Ferrand. <a href="http://robotics.sciencemag.org/content/3/21/eaat5843" target="_blank">Not as bad as it seems: When the presence of a threatening humanoid robot improves human performance</a> **Science Robotics**, 3, eaat5843, 2018.
+ 5. N Spatola, C Belletier, P Chausse, M Augustinova, A Normand, V Barra, P Huguet, L Ferrand. Social robots will boost your cognitive performance. In  **Bangor Social Robotics Workshop on the Emerging Social Neuroscience of Human-Robot Interaction**, 2017.

@@ -1,0 +1,66 @@
+---
+title: "Solar Image Processing"
+editor: visual
+image: ../img/solar.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+We apply machine and deep learning techniques to the analysis of coronal images.
+
+## Image to image translation
+---
+
+Deep generative models have recently become popular in heliophysics for their capacity to fill in gaps in solar observational datasets, thereby  helping mitigating the data scarcity issue faced in space weather forecasting.  
+
+Magnetograms are used as boundary condition of physical models to reconstruct the global solar magnetic field, but we have a direct access to magnetogram from a limited number of sources, and up now, only one vantage point. EUV images on the other hand offers vantage points from the far side of the Sun thanks to the STEREO mission. It is thus of interest to generate magnetogram out of EUV images, and to assess the errors made when using the generated models into PFSS models, and later on, models of the solar wind such as EUHFORIA. 
+
+In a first work, we use paired and unpaired image-to-image translation models to generate magnetograms from 171, 193 and 304 EUV images. The models also allows to reverse the process in order to generate EUV images from HMI. We evaluate the confidence these generated images using a test set, and we shed lights on some potential improvements and generalization processes.
+
+<center>
+<img src="../img/euvhmi.png" alt= “” width="600" >
+</center>
+
+
+In another work,we studied a particular type of deep generative models, called conditional Generative Adversarial Networks (cGAN), that has been used since a few years in the context of image-to-image (I2I) translation on solar observations.  These algorithms have however hyperparameters whose values might influence the quality of the synthetic image. 
+
+We use magnetograms produced by the Helioseismic and Magnetic Imager (HMI) on board the  Solar Dynamics Observatory (SDO) and EUV images from the  Atmospheric Imaging Assembly (AIA) for the problem of generating Artificial Intelligence (AI) synthetic  magnetograms from multiple SDO/AIA channels using cGAN, and more precisely the Pix2PixCC algorithm.  We perform a systematic study of the most important hyperparameters to investigate which hyperparameter might generate magnetograms of highest quality with respect to the Structural Similarity Index.  We propose a structured way to perform training with various hyperparameter values, and provide  diagnostic and visualization tools of the generated versus targeted image. Our results shows that when using a larger number of filters in the convolution blocks of the cGAN, the fine details in the generated magnetogram are better reconstructed. Adding several input channels besides the 304 channel does not improve the quality of generated magnetogram, but the hyperparameters controlling the relative importance of the different loss functions in the optimization process have an influence on the quality of the results.
+
+<center>
+<img src="../img/pix2pixcc.png" alt= “” width="600" >
+</center>
+
+
+
+### Related publications
+1. M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** (2023, submitted)
+
+2. V Barra, V Delouille. Image-to-image translation model to generate magnetogram out of EUV images. In **Proc of Machine Learning in Heliophysics**, 2019.
+
+## Segmentation of solar corona images
+---
+
+The study of the variability of the solar corona and the monitoring of its traditional regions (Coronal Holes, Quiet Sun and Active Regions) are of great importance in astrophysics as well as in view of the Space Weather and Space Climate applications. 
+We  proposed two ways of performing such a study :
+
+- a multi-channel unsupervised spatially-constrained fuzzy clustering algorithm that automatically segments EUV solar images into Coronal Holes, Quiet Sun and Active Regions. Fuzzy logic allows to manage the various noises present in the images and the imprecision in the deﬁnition of the above regions. The process is fast and automatic. It is applied to SoHO-EIT images taken from January 1997 till May 2005, i.e. along almost a full solar cycle. Results in terms of areas and intensity estimations are consistent with previous knowledge. The method reveal the rotational and other mid-term periodicities in the extracted time series across solar cycle.
+- a fusion approach that allows to aggregate (17.1 nm, 19.5 nm) data stemming from the solar EIT instrument onboard the SoHO mission, and that is ﬂexible enough to allow the integration of other type of information. The method is based on both a spatially constrained possibilistic clustering algorithm and a context dependent fusion operator. It aggregates the complementary and redundant information coming from the input sources. The results obtained on a 9-year dataset are consistent with those found in the solar physics literature. Unlike previous algorithms used in solar physics, our method has the ability to add further heterogeneous sources and sensors (e.g. human knowledge, images in other bandpasses, ratio of images) to the process, in order to postpone the decision step (here the segmentation of structures of interest) until sufﬁcient information is available.
+
+<center>
+<img src="../img/segsun.png" alt= “” width="600" >
+</center>
+
+### Related publications
+
+1. B Mampaey, V Delouille, C Verbeeck, JF Hochedez, V Barra. Fast and Robust Segmentation of Solar EUV Images: Towards Real Time Use in the Age of SDO. In **Bulletin of the American Astronomical Society**, #216, 2010.
+
+2. V Barra, V Delouille, M Kretzschmar, JF Hochedez. <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiFv8H1xM__AhXqS_EDHSJHDkMQFnoECA8QAQ&url=https%3A%2F%2Fwww.aanda.org%2Farticles%2Faa%2Fabs%2F2009%2F37%2Faa11416-08%2Faa11416-08.html&usg=AOvVaw1CvoOIFs7vw-ui1IYPcxKk&opi=89978449" target="_blank">Fast and robust segmentation of solar EUV images : algorithm and results for solar cycle 23</a> **Astronomy and Astrophysics**, 505, 361-371, 2009.
+
+3. V Barra, V Delouille, JF Hochedez. Segmentation, Tracking and Characterization of Solar Features from EIT Solar Corona Images. **SCIA’09**, 2009.
+  
+4. Extreme Ultraviolet Solar Images via Multichannel Unsupervised Fuzzy Clustering</a> **Advances in Space Research**, 42 : pp 917–925, 2008.
+
+5. V Barra, V Delouille, JF Hochedez. Segmentation of Extreme Ultraviolet Solar Images using a Multispectral Data Fusion Process. **IEEE’Fuzz**, 2007.

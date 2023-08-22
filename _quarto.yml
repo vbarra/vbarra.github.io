@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Homepage - Vincent BARRA"
+  open-graph: true
+  twitter-card: true
+
+  search:
+    type: textbox
+
+  navbar:
+    right:
+      - href: index.qmd
+        text: About      
+        icon: question-circle
+      - href: research.qmd
+        text: Research
+        icon: calculator
+      - href: publications.qmd
+        text: Publications
+        icon: book
+      - href: talks.qmd
+        text: Talks
+        icon: easel
+      - href: students.qmd
+        text: phD Students
+        icon: mortarboard
+      - href: teaching.qmd
+        text: Teaching
+        icon: journal-bookmark
+      - href: admin.qmd
+        text: Admin
+        icon: bank
+      - href: contact.qmd
+        text: Contact
+        icon: person-circle
+
+format:
+  html:
+    theme:
+      light: Lumen
+      dark: slate
+    css: styles.css
+    toc: true
+    grid:
+      body-width: 1000px
+
+editor: visual
+
+

@@ -1,0 +1,50 @@
+---
+title: Stochastic differential equations
+image: ../img/brownian.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+#### **Course description**
+---
+
+Introduction to stochastic differential equations
+
+#### **Syllabus**
+---
+
+1. Introduction and motivations
+2. Brownian motion
+3. Stochastic integrals, Ito formula
+4. Stochastic differential equations
+5. Applications
+
+
+#### **Example**
+--- 
+
+
+
+Probabilistic approximation of the solution of the Dirichlet problem
+\begin{equation}
+\left \{
+\begin{array}{lll}
+\Delta u & =0 & \textrm{in $E$}\\
+u & = g & \textrm{for $\partial E$}\\
+\end{array}
+\right .
+\label{Dirichlet}
+\end{equation}
+
+$$(\forall x\in E)\quad u(x)=\mathbb{E}(g(X_{\tau_x}))$$
+where $X_t$ is a brownian motion starting at $x\in E$ and $\tau_x$ is the time when $X_t$ reaches $\partial E$.
+
+
+
+<center>
+<img src="../img/resultat_MT.jpg" alt= “” width="600" >
+</center>
+

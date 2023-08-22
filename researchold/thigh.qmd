@@ -1,0 +1,58 @@
+---
+title: "Thigh image processing"
+editor: visual
+image: ../img/thigh.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+
+Physical training, surgery or alterations in spontaneous activity are proved to induce changes in physical capacity and body composition, especially on thigh composition
+
+We proposed to automatically segment muscle and fat compartments from MR images of thighs by using an unsupervised classification method. In this type of method, each voxel of the image is represented by a feature vector, and the set of these vectors is clustered into classes according to metric properties in the feature space. Here we applied a fuzzy clustering algorithm already described resulting in three fuzzy maps, representing the spatial distribution of muscle and skin, fat and bone marrow and background and cortical bone.
+<center>
+<img src="../img/thigh1.png" alt= “” width="500" >
+</center>
+These fuzzy maps were then post-processed to allow the computation of muscle and fat volumes.
+
+Skin was removed from the muscle fuzzy map. Since muscle and skin were the two largest three-dimensional (3D) connected components in this image, and since the volume of muscle was highly greater than that of the skin, we thresholded the muscle fuzzy map. We then searched the largest 3D connected component and we finally retained as muscle memberships those belonging to this largest 3D connected component Bone marrow was then suppressed from the fat fuzzy map. This was also carried out by searching the second largest 3D connected component in the thresholded fuzzy image, which always corresponded to the bone marrow of the thighbone. Fat memberships of this bone were put equal to zero, and the resulting image was made up of intermuscular and subcutaneous fat.
+
+Volumes of fat and muscle were finally computed by assigning each voxel to the tissue for which it had the greatest membership.
+<center>
+<img src="../img/thigh2.png" alt= “” width="500" >
+</center>
+
+
+
+## Study of muscular metabolism
+---
+
+The study of muscular metabolism brought us to develop in 1995 methods for the segmentation of muscle and fat, making it possible to obtain the percentages of intramuscular, inter-muscular fat and of muscle in images IRM of thighs. The goal being to follow in time and for old people the influence of various parameters (sports activity, diet) on these percentages.
+
+## Study of the water-fat distribution in sportsman
+---
+
+Another use of this algorithm made it possible to obtain in 1996 a quantification of the muscle/fat ratio on MR images of the thigh for healthy or ill people (Cushing disease). The image is recorded on only one thick transverse 10mm slice, located 100 mm above the kneecap. Within the framework of this protocol, we developed a method allowing to eliminate vessels and arteries by acquiring two sequences (reference and fat saturation). This process enabled us to observe in a non-invasive way the consequences on the muscle of a metabolic dysfunction as well as the quantitative distribution of the muscles and fat in various types of sportsmen.
+
+
+## Study of muscular and fatty volumes following the after anterior cruciate ligament reconstruction
+---
+
+We initiated, in collaboration with the laboratory of sport physiology and biology (Faculty of Medicine, Clermont-Ferrand), a study on muscular recovery following the anterior cruciate ligament (ACL) reconstruction. An ACL lesion the and the consequent repairing surgery has for main effect a muscle atrophy in the thigh. We thus thought of using a method of muscle and fat volume quantification, in T1-weighted MR images balanced, to assess the repercussion of this surgery post, and after a 12 weeks electrostimulation rehabilitation program.
+
+## Related publications
+---
+
+1. H Rebai, V Barra, A Laborde, JM Bonny, G Poumarat, J Coudert. <a href="https://www.ncbi.nlm.nih.gov/pubmed/12439778" target="_blank">Effects of two electrical stimulation Frequencies on thigh Muscles after knee Surgery</a> **International Journal of Sports Medicine** 23:604-609, 2002.
+2. V Barra, JY Boire. <a href="http://www.sciencedirect.com/science/article/pii/S0169260701001729" target="_blank">Segmentation of Fat and Muscle from MR Images of the Thigh by a possibilistic clustering Algorithm</a> **Computer Methods and Programs in Biomedicine** 68:185-193, 2002.
+3. H Rebai, A Laborde, V Barra, M Delaitre, S Boisgard, L Coudeyre, J Coudert. <a href="https://pubmed.ncbi.nlm.nih.gov/12439778/" target="_blank">Effects of two electrical Stimulation Frequencies on thigh Muscles after knee Surgery</a>. In **Proc of Sixth Annual Congress of the European College of Sport Science**, Kohn, Germany, 2001.
+4. V Barra, JY Boire. Quantification of muscle/fat ratio on MR images of thighs using a fuzzy clustering algorithm. **Proc of Non Invasive investigation of muscle function Workshop**, Marseille, 2001.
+5. H Rebai, V Barra, JM Bonny, G Poumarat, J Coudert. Thigh muscle volumes and proton T2 relaxation time after reconstruction of the anterior cruciate ligament and 12 weeks of rehabilitation. **Proc of Non Invasive investigation of muscle function Workshop**, Marseille, 2001.
+6. V Barra, JY Boire. Segmentation of muscle and fat compartments from MR images using a fuzzy clustering algorithm. **Proc of ISMRM’O1**, Glasgow, 2001.
+7. B Morio, V Barra, P Ritz, N Fellmann, JM Bonny, B Beaufrere, JY Boire, M Vermorel. <a href="https://link.springer.com/article/10.1007/s004210050051" target="_blank">Benefit of Endurance Training in elderly People over a short Period of Time is reversible</a>. **European Journal of Applied Physiology** 81:326-336, 2000.
+8. V Barra, B Morio, A Colin, M Vermorel, JY Boire. <a href="https://ieeexplore.ieee.org/document/652725" target="_blank">Automatic Assessment of Muscle/Fat temporal Variations on MR Images of the Thigh</a>. **Proc IEEE EMBS**, Amsterdam, 1996.
+
+

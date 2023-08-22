@@ -1,0 +1,25 @@
+---
+title: "Teaching"
+image: img/teaching.jpg
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+listing: 
+  - id: teaching
+    contents: "teaching/*.qmd"
+    type: grid
+  - id: teachingold
+    contents: "teachingold/*.qmd"
+    type: grid
+---
+
+## Current lectures
+:::{#teaching}
+:::
+
+## Past lectures
+:::{#teachingold}
+:::
+

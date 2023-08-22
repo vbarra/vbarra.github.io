@@ -1,0 +1,26 @@
+---
+title: "Deep Learning for Electrical Impedance Tomography"
+editor: visual
+image: ../img/eit.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+
+Electrical impedance tomography is an effective, non-ionizing, and inexpensive imaging modality for imaging the electric conductivity within an object from a set of boundary data. In practice, reconstructed images from traditional deterministic methods provide poor resolution. 
+
+We are interested in solving the exponentially ill-posed electrical impedance tomography (EIT) inverse problem using a newly developed deep neural network algorithmOur deep neural net algorithm was developed using convolutional neural networks for the direct problem and a deep network for the inverse problem to provide higher resolution images.
+
+<center>
+<img src="../img/eitall.png" alt= “” width="600" >
+</center>
+
+## Related publications
+---
+
+1. T Khan, S Kupis, V Barra. Deep Learning Approaches for Computational Inverse Problem in Electrical Impedance Tomography. In **Spring Southeastern Virtual Sectional Meeting**, 2021.
+2. S Kupis, V Barra, T Khan. Electrical Impedance Tomography using Sparsity Regularization and Machine Learning Approach.. In **SIAM Conference on Imaging Science** (IS20), 2020.
+3. T Khan, S Kupis, V Barra. Machine learning approach for image reconstruction in electrical impedance tomography inverse problem. Preliminary report. In **Proc of Joint Mathematics Meeting**, Denver Colorado, 2020.

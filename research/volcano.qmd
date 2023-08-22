@@ -1,0 +1,79 @@
+---
+title: "Computer Science and Volcanology"
+editor: visual
+image: ../img/volcano.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+## Deep Learning analysis of multiprobe sensor networks to assess risk scenario’s at volcanic hydrothermal ecosystems
+--- 
+
+Volcanic hydrothermal systems are poorly-considered, long-fuse environmental time bombs. They involve complex process-response systems with spatially and temporally varying flows of heat and mass from deep volcanic sources to the Earth’s surface. Across such zones, high concentrations of volcanic gas and extreme heat fluxes act as environmental polluters, killing-off flora and fauna across wide zones. Such systems are extremely common and involve some of the highest, sustained, heat fluxes on the planet. The objective of this research project is to build Deep-Learning data-driven models that will allow to send alerts concerning the timing, location and hazard level of environmental crises at hydrothermal systems. Potential outcomes can then be assessed by examining past crises and their ecosystem impacts. The scientific context of this work is the ANR funded project DIRE (Data-Integration, Risk and the Environment) leaded by three CNRS labs of Clermont-Ferrand (LMV , LIMOS , LPC ), in collaboration with national (IRD) and international (INGV Italy, Univ. Geneva) partners.
+
+In this work, we developed DITAN, a novel unsupervised domain-agnostic framework for detecting and interpreting temporal-based anomalies. It is based on an encoder-decoder architecture with both implicit/explicit attention and adjustable layers/units for predicting normality as regular patterns in sequential data. A two-stage thresholding methodology with built-in pruning is used to detect anomalies, while root cause and similarities are interpreted in data and units space. Our approach is designed to intersect the 9 fundamental characteristics extracted from the union of related works. We demonstrate the DITAN modules on real-world datasets of 6 multivariate time series contaminated by point and contextual temporal-based anomalies at a varying duration. Experiments show a dominant predictability power of DITAN against the originally proposed models. DITAN is able to determine critical regions and thus identify anomalous events similarly well. Informative similarities between anomalous records are interpreted, since almost all similarities in units space are also verified in data space.
+
+<center>
+<img src="../img/ditan_architecture.png" alt= “” width="600" >
+</center>
+
+
+We then developed an expert system as well as an inference engine to detect and classify anomalies. 
+<center>
+<img src="../img/update_rule.png" alt= “” width="600" >
+</center>
+
+We applied our method on multivariate timeeseries analysis of Vulcano, recorded in 2020.
+
+<center>
+<img src="../img/vulcano_2020.png" alt= “” width="600" >
+</center>
+
+
+
+
+
+### Related publications
+
+1. ·  M Giannoulis, A Harris, V Barra, DITAN: A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies, **Pattern Recognition** 2023 (accepted)
+
+
+
+## Characterization of volcanic emissions through thermal vision
+---
+
+In April 2010, the eruption of Eyjafjallajökull (Iceland) threw volcanic ash several kilometres up into the atmosphere, an event which led to air travel disruption across northwest Europe for six days and which included the closure of airspace over many parts of Europe. This crisis spotlighted the necessity to parameterise and simulate plume dynamics through emission, dispersion and fall out as to better model, track and forecast cloud motions and locations. This eruption was classified as a Strombolian to Sub-Plinian eruption type. Numerous volcanoes from the five continents produce strombolian eruptions, which are a relatively mild form of explosive volcanic activity. Strombolian eruptions are small explosive events, 100s to 1000s of meter in height which occur more frequently than Vulcanian. They are also notable for the brilliant incandescent parabolic arcs traced by their molten ejecta. Emission of bombs, blocks, lapilli, and minor coarse ash is common during normal explosive activity. Lava flows and ash-rich eruptions plus paroxysms that send ash clouds to several kilometers are also frequent events as well.
+
+On Stromboli, Strombolian activity has been observed and studied over several centuries. Over this period, the constant evolution of technology and the proliferation of monitoring equipment has improved our understanding of conduit dynamics and explosive behavior. Active volcanoes emit heat through lava flows, domes, lakes, degassing and erupting vents. Remote measurements of heat emission from such active features provide insights into the physical processes governing the associated volcanic activity. However, analyses and modelling as well as post processing of thermal data are still not fully automated, and quantitative parameters to feed to the modelers and responders in near-real time remain difficult to extract and provide.
+
+Since 2001, thermal camera video has been increasingly used to track, parametrize and understand dynamic volcanic events, such that the use of such a capability is beginning to eclipse that of the satellite-based perspective. However, the complexity and size of these data sets are compounding the current problem of ever-accelerating data dates so as to require development new and different methodologies. For ongoing volcanic events, parameters, such as mass flux, ascent (or spreading) velocity and plume or lava expansion spreading rate, are key for understanding the dynamics of the explosive and effusive eruptions and the source mechanisms that drive them.
+
+In this project, we concentrate on the different components of strombolian eruptions at the full range of remote sensing spatial scales. These range from millimeters (for individual particles in single thermal camera pixels) to kilometers (for the entire features imaged with the satellite field of view). We aim to characterise volcanic emissions through thermal vision.
+
+<center>
+<img src="../img/volcano1.png" alt= “” width="600" >
+</center>
+
+
+### Related publications
+
+1. M Bombrun, D Jessop, A Harris, V Barra. <a href="https://www.sciencedirect.com/science/article/pii/S037702731730450X%20" target="_blank">An algorithm for the detection and characterisation of volcanic plumes using thermal camera imagery</a> **Journal of Volcanology and Geothermal Research**,352: 26-37, 2018.
+
+2. M Bombrun, L Spampinato, A Harris, V Barra, T Caltabiano. <a href="https://link.springer.com/article/10.1007/s10044-015-0524-9" target="_blank">On the transition from strombolian to fountaining activity: a thermal energy-based driver</a> **Bulletin of Volcanology**, 78,15, 2016.
+
+3. M Bombrun, A Harris, L Gurioli, J Battaglia, V Barra. <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjP_cylxM__AhUZX_EDHRaRAVcQFnoECAkQAQ&url=https%3A%2F%2Fagupubs.onlinelibrary.wiley.com%2Fdoi%2Fabs%2F10.1002%2F2014JB011556&usg=AOvVaw2k0QIX-e5X6iqaRHw2cjyb&opi=89978449" target="_blank">Anatomy of a strombolian eruption : Inferences from particle data recorded with thermal video</a> **Journal of Geophysical Research**,120,4 : 2367–2387, 2015.
+
+4. M Bombrun, V Barra, A Harris. <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Applied-Remote-Sensing/volume-8/issue-1/083549/Algorithm-for-particle-detection-and-parameterization-in-high-frame-rate/10.1117/1.JRS.8.083549.short?SSO=1" target="_blank">Algorithm for particle detection and parameterization in high-frame-rate thermal video</a> **Journal of Applied Remote Sensing**, 8(1), 083549, 2014.
+
+5. A Harris, J Battaglia, F Donnadieu, L Gurioli, K Kelfoun, P Labazuy, G Sawyer, S Valade, M Bombrun, V Barra, D Delle Donne, G Lacanna. <a href="http://onlinelibrary.wiley.com/store/10.1002/2013EO370001/asset/eost2013EO370001.pdf?v=1&t=jb6dl7av&s=ceb35301e3423af45f00c2291dc18ea4f0c294e6" target="_blank">Modern Multispectral Sensors Help Track Explosive Eruptions</a>. **EOS, Transactions American Geophysical Union**, 94:321-328, 2013.
+
+6. M Bombrun, D Jessop, V Barra, A Harris. Plume tracking algorithm : Parameterisation of volcanic plume dynamics. In **Proc of the 26th general Assembly of IUGG**, Prague, 2015.
+
+7. M Bombrun, V Barra, A Harris. Analysis of Thermal Video for Coarse to Fine Particle Tracking in Volcanic Explosion Plume. **SCIA’15**, 2015.
+
+8. M Bombrun, V Barra, A Harris. Particle detection and velocity prediction for volcanic eruptions : a preliminary study. **IAVCEI**, 2013.
+
+9/ S Valade, A Harris, G Sawyer, F Donnadieu, P Labazuy, K Kelfoun, M Bombrun, V Barra, C Hervier, M Ripepe, D Delle Donne, G Lacanna, M Burton, L Chevalier, T Stachowicz. Full bandwidth remote sensing for total parameterization of volcanic plumes. **IAVCEI**, 2013.

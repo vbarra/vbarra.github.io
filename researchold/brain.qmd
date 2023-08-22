@@ -1,0 +1,226 @@
+---
+title: "Brain Image processing"
+editor: visual
+image: ../img/brain.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+
+
+## Topology correction of brain surfaces
+___
+
+Brain surfaces provide a reliable representation for cortical mapping. The construction of correct surfaces from magnetic resonance images (MRI) segmentation is a challenging task, especially when genus zero surfaces are required for further processing such as parameterization, partial inflation and registration. The generation of such surfaces has been approached either by correcting a binary image as part of the segmentation pipeline or by modifying the mesh representing the surface. During this task, the preservation of the structure may be compromised because of the convoluted nature of the brain and noisy/imperfect segmentations. In this paper, we propose a combined, voxel and surface based, topology correction method which preserves the structure of the brain while yielding genus zero surfaces. The topology of the binary segmentation is first corrected using a set of topology preserving operators applied sequentially. This results in a white matter/gray matter binary set with correct sulci delineation, homotopic to a filled sphere. Using the corrected segmentation, a marching cubes mesh is then generated and the tunnels and handles resulting from the meshing are finally removed with an algorithm based on the detection of nonseparating loops.
+
+<center>
+<img src="../img/braintopo.png" alt= “” width="500" >
+</center>
+
+The approach was validated using 20 young individuals MRI from the OASIS database, acquired at two different timepoints. Reproducibility and robustness were evaluated using global and local criteria such as surface area, curvature and point to point distance. Results demonstrated the method capability to produce genus zero meshes while preserving geometry, two fundamental properties for reliable and accurate cortical mapping and further clinical studies.
+
+### Related publications
+1. O Acosta, J Fripp, V Dore, P Bourgeat, JM Favreau, G Chetelat, A Rueda, A Villemagne, C Szoekea, D Ames, R Martins, C Masters, C Rowe, E Bonner, F Gris, D Xiao, P Raniga, V Barra, O Salvado. <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwig8ePdxM__AhWEXvEDHaLEAmAQFnoECA8QAQ&url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0165027011007485&usg=AOvVaw0qI4L2Z0VaS4fQknFCsxnU&opi=89978449" target="_blank">Cortical surface mapping using topology correction‚ partial flattening and 3D shape context-based non-rigid registration for use in quantifying atrophy in Alzheimer’s disease</a> **Journal of Neuroscience Methods**, 205:96-109, 2012.
+
+ 2. F Gris, JM Favreau, O Acosta, V Barra, O Salvado. A combined voxel and surface based method for topology correction of brain surfaces. **SPIE Medical Imaging**, 2010.
+
+
+## Topographic Analysis of Electrode Contacts in Human Cortical Stimulation
+---
+
+ Electric chronic stimulation of the human motor cortex (ECSM) has been reported to alleviate chronic severe pain. However the mechanism of action of ECSM is still hypothetical. This is due mainly to the poor knowledge of, 1) the electric diffusion through the multiple structures beneath the epidural contacts (i.e. dura matter, cerebrospinal fluid space, arachnoid membrane, grey and white matter layers, pie mere and vascular tree), 2) the absence of consensus concerning the stimulation parameters (mono versus bipolar stimulation, cathodic or anodic current) and 3) the detailed cortical topography of the contacts. In this study we focused on the precise identification of the cortical areas covered by the electric contacts in a series of twelve patients operated on for ECSM. We proposed a new automatic tool for topographic analysis able to compute 2D maps from the 3D anatomic MRI with bijective transformation (point-to- point correspondance). Anatomical regions of interest (AROIs) were visually identified, manually outlined and extracted (Iplan, BrainLab, Germany) for further analysis : 1) for the anatomic structures, on pre operative T1-weigthed magnetic resonance imaging (MRI), the frontal (superior or F1, intermediate or F2 and inferior or F3), the pre central and the post central gyrus ; 2) for the electrode contacts (Resume, Medtronic, USA), on post operative computerized tomography (CT). After getting white and gray matter membership maps by automatic segmentation, we produced a cortical mask to build a triangular mesh. We defined a homeomorphism between the 3D mesh and a subset of R2 and could apply in consequence the circle packing algorithm. We built depth maps (distance to the skull), distance to- contact maps (distance to a given electrode contact) and anatomic structure maps.
+
+ <center>
+<img src="../img/electrodes.png" alt= “” width="500" >
+</center>
+
+Results showed that it was easier to accurately define the location of the contact projection on the cortex allowing physicians to correlate the benefit with the topography. In particular, because of the unfolding, it was easier to integrate the cytoarchitectonics (i.e. the manually identified AROIs) knowledge in the analysis. Beyond the better understanding of ECSM and indirectly of the pathophysiologic process of chronic pain, this new tool might be used in the future for image guided electrode positioning.
+
+### Related publications
+1. JM Favreau, V Barra. Conformal Flattening of the Cortical Surface using a Topological and Geometrical Cutting. **SEECCM’09**, 2009.
+2. JM Favreau, S Hemm, C Nuti, J Coste, V Barra, JJ Lemaire. A Tool for Topographic Analysis of Electrode Contacts in Human Cortical Stimulation. **ICCV-07**, 2007
+
+
+## Transcranial Magnetic Stimulation
+---
+
+Transcranial Magnetic Stimulation (TMS) is a technique for brain stimulation. As another techniques like ElectroConvulsive Therapy (ECT) or the implantation of electrodes into motor cortex, TMS excites neurones. But contrary to those techniques, TMS is painless and noninvasive. Indeed, neurones are excited by electrical current induced by a rapidly changing magnetic field. This field is created by the discharge of thyristor (during about 300 μs) into a coil i.e a copper winding surrounded by a water-cooled system. The current circulating through the coil is about 10000 A in order to allow magnetic field to cross the skull of the patient.
+
+Using TMS is sometimes still empirical. The clinician who wants to stimulate a specific cortex area given an expected result (phosphene, modification of vision, motor effect) will perform several stimulations, scanning over the patient’s scalp to find the most important response.
+
+We thus proposed in this project to develop a transcranial magnetic stimulation simulator : according to position and orientation of the coil and to the parameters of the stimulation, the simulator will give a modelling of the stimulation effects. Result will be mapped on MRI image of the patient.
+
+The TMS simulator is composed of three main tools :
+
+- A numerical tool, to compute magnetic field generated by a given coil at any point of the empty-space. The aim is first to assess the magnetic field induced by the coil, then to provide a finite-element scheme boundaries conditions and finally to finite-element computation in free space.
+- A design tool, able to take into account the specificity of each winding copper shape. For a given contour, the user has only to define a 3D-parametrical curve and the expression of its derivative
+- An interface tool, providing some results such as the maps of magnetic and potential vector field, mapped on a 3D brain of the patient, and some interactions ( position/orientation of the coil w.r.t. the patient…)
+
+ <center>
+<img src="../img/tms.png" alt= “” width="500" >
+</center>
+
+### Related publications
+1. E Innocenti, S Luquet, D Hill, V Barra. Model driven Engineering for a Transcranial Magnetic Stimulation simulation. **ESM’10**, 2010.
+  
+2. S Luquet, V Barra, JJ Lemaire. Transcranial Magnetic Stimulation : Magnetic Field Computation in empty free space. **IEEE EMBS’05**, 2005.
+  
+3. S Luquet, V Barra, C Haug, JJ Lemaire. Development of a software for transcranial magnetic stimulation : potential magnetic field mapping on human brain. **IBMISPS’06**, 2005.
+
+## Analysis of Segmentation Methods
+---
+
+The objective of this project was to test new methods and compare state-of-the-art software for brain tissue segmentation and brain morphometry from 3D MR images. The methods we included in our study concerned local algorithms (LIMOS and Bergen), and segmentation algorithms provided by SPM5, FreeSurfer, and FSL. This eﬀort was related to a multidisciplinary project on cognitive aging where the group in Bergen has acquired dual volume T1-weighted 3D brain images from 110 elderly subjects (age : 46-79 years) where also genotyping (APOE, Chrna4, BDNF) and results from extensive neuropsychological phenotyping is obtained. The best performing methods from the brain segmentation and morphometric studies were then be applied to this large image collection and numerical measures incorporated into statistical analysis for better insight in the aging process.
+
+More speciﬁcally, the present project addressed the following issues :
+
+- Methods for performance evaluation
+- Optimal use of dual MR acquisitions (separate volume classiﬁcation ? image registration ? value of single versus dual acquisition ?)
+- Inﬂuence of spatial inhomogeneities and noise in the MR signal, how to correct it ? Derive parameters (regional tissue volumes, cortical thickness, etc) that can be used in a broader statistical analysis with other biological and behavioral data
+- Make results (test-data, programs, evaluations) available on Web
+
+ <center>
+<img src="../img/aurora.png" alt= “” width="500" >
+</center>
+
+### Related publications
+
+1. F Klauschen, A Goldman, V Barra, A Meyer-Lindenberg, A Lundervold. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18537111" target="_blank">Evaluation of MR-brain-volumetry methods</a> **Human Brain Mapping**, 30, 1310-1327, 2008
+
+2. V Barra, A Lundervold. A Collaborative Software Tool for the Evaluation of MRI Brain Segmentation Methods. **ISITC’07**, 2007.
+
+
+## Fusion of Image/Expert information
+--- 
+
+Expert knowledge information relate to indications of position, of form…, and can be clarified as fuzzy proposals (modeling the reflexions of a specialist) and/or as a brain atlas . Fusion thus takes place on heterogeneous and rather complementary data which are not necessarily expressed within the same formal framework (numerical for the images and the atlas, linguistics for expert knowledge). The interest of fusion is here to push back the decision (the segmentation of structures for example) until having sufficient information. This remark, which prevails in general for fusion, is remarkably illustrated in this type of problem, where the information of gray level or coarse position is not enough with the segmentation, but where the aggregation of the whole set of knowledge allows to infer a reliable decision.
+
+The use of this type of method relates mainly to the segmentation of cerebral structures starting from images, atlas and symbolic data modeling expert knowledge. This segmentation can take place for the whole brain with, for example, a research of the hemispheres and cerebellum or stick more particularly to the detection of fine anatomical structures implied in specific pathologies. The clinical implications go then from the targeting of structures for a help to the surgical act to the follow-up of morphometric measurements of a pathological entity.
+
+We applied this method :
+
+- to the segmentation of the subthalamic nucleus within the framework of the treatment of the idiopathic Parkinson’s disease by electrostimulation
+- to the segmentation of striatum
+
+
+ <center>
+<img src="../img/expert.png" alt= “” width="500" >
+</center>
+
+
+### Related publications
+
+1. V Barra, JJ Lemaire, F Durif, JY Boire. Segmentation of the Subthalamic Nucleus in MR Images Using Information Fusion - A Preliminary Study for a Computed-Aided Surgery of Parkinson's Disease. **MICCAI**, 2001.
+  
+
+2. E Frenoux, V Barra, JY Boire. Segmentation of the striatum using data fusion,. In **Proc of 22th Annual International Conference of the IEEE Engineering in Medicine and Biology Society**, Istambul, 2001.
+  
+
+3. V Barra, JY Boire. <a href="https://dx.doi.org/10.1109/42.932740" target="_blank">Automatic Segmentation of subcortical brain Structures in MR Images using Information Fusion</a> **IEEE Transactions on Medical Imaging** 20:549-58, 2001.
+
+
+
+## MR/MR Image Fusion
+---
+We proposed in this project to aggregate MR images resulting different types of acquisition. The goal here was to precisely quantify volumes of principal cerebral tissues (white substance, gray substance, cerebrospinal fluid). Generally, a precise quantification of these volumes must make it possible to help with the diagnosis, the comprehension and the treatment of some pathologies.
+
+We illustrated the concept on the fusion of T2-weighted (T2) and proton density (PD) images. The method was a three step fusion process. The first one involved the computation of fuzzy tissue maps in both images by means of a possibilistic clustering algorithm. The choice of fuzzy logic is motivated by the nature of information. The second step was an aggregation step, while the final segmentation was is the last phase of the process
+
+ <center>
+<img src="../img/mrmr.png" alt= “” width="500" >
+</center>
+
+### Related publications
+
+1. V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - **Proceedings of the 10th World Congress on Medical Informatics**, London, UK, 2001.
+  
+2. V Barra, JY Boire. Quantification of brain tissue volumes using MR/MR fusion. **IEEE EMBS’00**, 2000.
+  
+3. V Barra, JY Boire. MR Images Fusion for Brain Tissues Volume Measurement. **CVPRIP’00**, 2000.
+
+
+
+## Anatomical / Functional Image Fusion
+---
+
+We proposed to fuse anatomical (A) and functional (F) information coming from medical imaging. We focused on brain imaging, although the principle may be extended to other organs provided image are spatially registered. The anatomical images mainly consisted of MR images that give information on structural composition of the organ (distribution of tissues, fine spatial resolution). They can be obtain using a wide range of parameters, so that the resulting images provide sufficient contrasts between the different structures to be located (tissue interfaces, tumors,…). The functional images were obtained by injecting a radioactive tracer that preferentially characterized a physiologic (e.g., glucose metabolism) or a biologic process (e.g., blood flow). Two major functional modalities are used in brain imaging : SPECT and PET. These images had a bad spatial resolution and are not informative on what they were not supposed to represent.
+
+In the following, anatomical and functional images were supposed to be registered. The same voxel (x,y,z) in the images thus corresponds to the same anatomical location. The registration procedure must be accurate enough to limit the amount of imprecision introduced. We then proposed a three-step fusion process
+
+- Image modeling : information was extracted from the images and was modeled in a common theoretical frame to manage vague and ambiguous knowledge
+- Fusion of image information : the information was then aggregated with a fusion operator. This operator must affirm redundancy and manage the complementarities and conflicts that often underline the presence of a pathology ;
+- Decision : a fusion image was proposed that synthesized the available information.
+
+ <center>
+<img src="../img/fuz1.png" alt= “” width="500" >
+</center>
+
+ <center>
+<img src="../img/fuz2.png" alt= “” width="500" >
+</center>
+
+### Related publications
+
+1. J Montagner, V Barra. Multilevel Information Fusion : A Mixed Fuzzy Logic/Geometrical Approach with Applications in Brain Image Processing. in <a href="https://www.intechopen.com/books/3594" target="_blank"> Sensor and Data Fusion</a>, In-Teh, Nada Milisavljevic Eds, 299-322, 2009.
+  
+
+2. J Montagner, V Barra, JY Boire. A Geometrical Approach to Multiresolution Management in the Fusion of Digital Images. **VIEW’06**, 2006.
+  
+
+3. J Montagner, V Barra, JY Boire. Synthesis of a Functional Information with Anatomical Landmarks by Multiresolution Fusion of Brain Images. **IEEE EMBS’05**, 2005.
+  
+
+4. J Montagner, V Barra, JP Reveilles, JY Boire. Multiresolution Images Fusion for the Quantification of Neuronal Activity: A Discrete Approach. In **Proc of 3rd IASTED International Conference on Biomedical Engineering**, Innsbruck, 2005.
+  
+
+5. N Boussion, L Cinotti, V Barra, P Ryvlin, F Maugiere. <a href="https://www.ncbi.nlm.nih.gov/pubmed/12880795" target="_blank">Extraction of epileptogenic foci from PET and SPECT images by fuzzy modeling and data fusion</a> **NeuroImage**, 19:646-654, 2003.
+  
+
+6. E Frenoux, V Barra, MO Habert, JY Boire. A New Method for the Quantitative Study of Neurotransmission. In **Proc of 24th Annual International Conference of the IEEE Engineering in Medicine and Biology Society**, Cancun, 2003.
+  
+
+7. E Frenoux, V Barra, JY Boire. Quantification of neurotransmission defects in functional imaging using information fusion: A prospective study. **IPMU’02**, 2002.
+ 
+
+8. E Frenoux, V Barra, JY Boire. Segmentation du striatum par fusion d’informations numériques et symboliques. In <a href="https://link.springer.com/book/9782287597626"target="_blank">  Télémédecine et e-santé</a>, R Beuscart,P Zweigenbaum,A Venot,P Degoulet, Springer eds., 2002.
+  
+
+9. J Montagner, L Buzer, V Barra, JP Reveilles, JY Boire. Utilisation de la géométrie discrète pour la fusion d’images anatomiques et fonctionnelles. In <a href="https://link.springer.com/book/9782287597626"target="_blank">  Télémédecine et e-santé</a>, R Beuscart,P Zweigenbaum,A Venot,P Degoulet, Springer eds., 2002.
+  
+
+10. V Barra, JY Boire. <a href="https://www.sciencedirect.com/science/article/pii/S1053811900907079" target="_blank">A General Framework for the Fusion of Anatomical and Functional Medical Images</a> **NeuroImage** 13:410-424, 2001.
+  
+
+11. V Barra, JY Boire. Aggregation of anatomical and functional Information by a MR/SPECT Fusion Process : Application to neurodegenerative Pathologies. In **Proc of the Sixth Annual Meeting of the Organization for human Brain Mapping**, San Antonio, USA, 2000.
+ 
+
+12. V Barra, JY Boire. Correction of Partial Volume Effects in SPECT using a MR/SPECT Fusion Process. In **Proc of the European Association of Nuclear Medicine Annual Congress**, Paris, 2000.
+ 
+
+13. V Barra, A Colin, JY Boire. Synthesis of a High Resolution functional Image by an MR/SPECT Fusion Process. In **Proc of the European Association of Nuclear Medicine Annual Congress**, Berlin, Germany, 1998.
+
+## Brain image segmentation
+---
+
+The ability of precisely quantifying cerebral tissue volumes in various diseases (Alzheimer, hydrocephaly…) must make it possible to largely improve the diagnosis, the treatment and the general understanding of pathologies. We proposed in 2000 a unsupervised fuzzy classification scheme for brain tissue segmentation. The boundary between brain in an MR image is smooth or fuzzy rather than sharp or crisp. Moreover, noise, partial volume effect and anatomical variations within pure tissue (White Matter,Gray Matter, Cerebrospinal Fluid) activities introduce uncertainty and fuzzyness in the image. We thus used a fuzzy clustering algorithm rather than a crisp one, and particularly the possibilistic clustering algorithm (PCA). PCA allows to interpret memberships as absolute degrees of belonging, whereas they are similar to degrees of sharing or relative memberships in the case of FCM. Because of the complex nature of (GM/WM) or (GM/CF) interfaces in MR images, a significant number of voxels contains a mixture of two or three tissues.
+
+ <center>
+<img src="../img/brainseg.png" alt= “” width="500" >
+</center>
+
+### Related publications
+
+1. F Klauschen, A Goldman, V Barra, A Meyer-Lindenberg, A Lundervold. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18537111" target="_blank">Evaluation of MR-brain-volumetry methods</a> **Human Brain Mapping**, 30, 1310-1327, 2008.
+  
+
+2. C Vidal, V Barra, R Nicolson, JY Boire, T DeVito, J Geaga, K Hayashi, D Drost, P Williamson, N Rajakumar, A Toga, P Thompson. <a href="http://www.sciencedirect.com/science/article/pii/S0925492707002284?via%3Dihub" target="_blank">Three-dimensional mapping of the lateral ventricles in autism</a> **Psychiatry Research, NeuroImaging**, 163, 106-115, 2008.
+  
+
+3. V Barra, E Frenoux, JY Boire. <a href="http://onlinelibrary.wiley.com/store/10.1002/jmri.10032/asset/10032_ftp.pdf?v=1&t=jb6kku7q&s=6e39e347672d3b540c34eda61ba6de4febce86c2" target="_blank">Automatic volumetric measurement of lateral ventricles on MR images with correction of partial volume effects</a> **Journal of Magnetic Resonance Imaging** 15:16-22, 2002.
+  
+
+4. V Barra, JY Boire. <a href="http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291522-2586%28200003%2911:3%3C267::AID-JMRI5%3E3.0.CO;2-8/full" target="_blank">Tissue Segmentation on MR Images by a possibilistic Clustering on a 3D Wavelet Representation</a> **Journal of Magnetic Resonance Imaging** 11:267-278, 2000.
+

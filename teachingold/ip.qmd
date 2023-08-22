@@ -1,0 +1,38 @@
+---
+title: Image processing
+image: ../img/slic.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+#### **Course description**
+---
+
+Image Processing: methods and applications in C++ using <a href="http://cimg.eu/" target="_blank"> CImg</a> library
+
+#### **Syllabus**
+---
+
+1. Introduction to CImg
+2. Spatial filtering
+3. Frequency filtering
+4. Diffusion filtering
+5. Mathematical morphology
+6. Optical flow
+7. Hough transform
+8. Active contours
+9. Image segmentation
+
+
+#### **Example**
+--- 
+
+Active contours and energy minimization.
+
+<center>
+<img src="../img/activecontour.png" alt= “” width="600" >
+</center>
+

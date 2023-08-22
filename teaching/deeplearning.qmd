@@ -1,0 +1,123 @@
+---
+title: Deep Learning
+image: ../img/bandeau.jpg
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+jupyter: 
+  kernelspec:
+    name: "python3"
+    language: "python"
+    display_name: "Python 3.9"
+---
+
+#### **Course description**
+---
+
+Introduction to Deep Learning. Concepts and main networks. Use cases in classification, regression, transfert learning, dimension reduction, data generation.
+
+#### **Syllabus**
+---
+
+1. Introduction to deep learning and to development tools (<a href="https://www.tensorflow.org/" target="_blank">Tensorflow </a> with <a href="http://keras.io/" target="_blank"> Keras </a> and <a href="https://colab.research.google.com/" target="_blank"> Google colab </a>)
+2. Perceptrons and MultiLayer Perceptrons
+3.  Convolutional Networks
+4.  Autoencoders
+5.  RNN, LSTM and GRU
+6.  Attention mechanisms and transformers
+7.  Transfert Learning
+8.  Generative networks - GAN and VAE
+9.  Siamese Networks
+
+
+#### **Example**
+---
+
+```{python}
+#| warning: false
+import numpy as np
+import matplotlib.pyplot as plt
+
+import tensorflow.keras as tk
+from tensorflow.keras import backend as K
+from tensorflow.keras.datasets import mnist
+
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, UpSampling2D
+from tensorflow.keras.models import Model
+
+from tensorflow.keras.optimizers import Adam
+
+# MNIST dataset loading
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# Number of samples in the training dataset
+num_examples = x_train.shape[0] 
+# Number of samples in the test dataset
+num_test = x_test.shape[0]
+# Size of the input layer (retina) = number of pixels of the MNIST images (784 pixels)
+num_input = x_train.shape[1]*x_train.shape[2]
+# Number of classes ( the 10 digits : {0, 1, 2, 3, 4, 5, 6, 7, 8, 9})
+num_classes = 10
+
+# Width ( and height) of the images
+img_size = x_train.shape[1] 
+# Size of (square) image
+img_shape = (img_size, img_size)
+
+# Reshape of datatsets in array and normalization
+x_train = x_train.astype('float32') / 255.
+x_test = x_test.astype('float32') / 255.
+x_train = np.reshape(x_train, (len(x_train), img_size, img_size, 1))
+x_test = np.reshape(x_test, (len(x_test), img_size, img_size, 1))
+
+# Add noise on training dataset
+noise = 0.5
+x_train_noised = x_train + noise * np.random.normal(loc=0.0, scale=1.0, size=x_train.shape) 
+x_test_noised  = x_test  + noise * np.random.normal(loc=0.0, scale=1.0, size=x_test.shape) 
+
+# Algorithm parameters
+lr = 0.001
+num_epochs = 5
+batch_size = 256
+
+# Model
+model = tk.models.Sequential()
+model.add(Conv2D(32, (3,3), activation='relu', padding='same', input_shape=(img_size,img_size,1)))
+model.add(MaxPooling2D((2,2), padding='same'))
+model.add(Conv2D(64, (3,3), activation='relu', padding='same'))
+model.add(MaxPooling2D((2,2), padding='same'))
+          
+model.add(Conv2D(64, (3,3), activation='relu', padding='same'))
+model.add(UpSampling2D((2,2)))
+model.add(Conv2D(32, (3,3), activation='relu', padding='same'))
+model.add(UpSampling2D((2,2)))
+model.add(Conv2D(1,(3,3), activation='sigmoid', padding='same'))
+
+# Training
+adam = Adam(lr)
+model.compile(optimizer=adam, loss='binary_crossentropy',metrics=['acc'])
+model.fit(x_train_noised,x_train,epochs=num_epochs,batch_size=batch_size,verbose=0,validation_data=(x_test_noised, x_test))
+
+
+# Denoised test images 
+denoised_img = model.predict(x_test_noised)
+plt.figure(figsize=(40, 4))
+for i in range(10):
+    ax = plt.subplot(3, 20, i + 1)
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
+    ax.set_title("Noisy image")
+    plt.imshow(x_test_noised[i].reshape(img_size, img_size))
+    
+    ax = plt.subplot(3, 20, 40 +i+ 1)
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
+    ax.set_title("Denoised image")
+    plt.imshow(denoised_img[i].reshape(img_size, img_size))
+
+plt.tight_layout()
+
+```
+

@@ -1,0 +1,62 @@
+---
+title: Machine Learning
+image: ../img/emvplot.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+#### **Course description**
+---
+
+Introduction to supervised and unsupervised machine learning algorithms. Applications in Python using <a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn </a>
+
+#### **Syllabus**
+---
+
+1. Introduction to Machine Learning and to developement tools
+2. Feature selection and Manifold learning
+3. Classification algorithms
+4. Kernel methods for classification and regression
+5. Ensemble methods
+6. Hidden Markov Models
+
+
+#### **Example**
+--- 
+Illustration of the MultiDimensional Scaling method.
+
+```{python}
+import matplotlib
+import matplotlib.pyplot as plt
+
+from sklearn.datasets import make_classification
+X, y = make_classification(n_samples=500, n_features=2,n_informative=2, n_redundant=0)
+colorize = dict(c=X[:, 0], cmap=matplotlib.colormaps['rainbow'])
+
+from sklearn.metrics import pairwise_distances
+D = pairwise_distances(X)
+
+from sklearn.manifold import MDS
+model = MDS(n_components=2, dissimilarity='precomputed', random_state=1,normalized_stress='auto')
+out = model.fit_transform(D)
+
+plt.figure(figsize=(6,3))
+fig,ax = plt.subplots(1,2)
+ax[0].scatter(X[:, 0], X[:, 1], **colorize)
+ax[0].xaxis.set_tick_params(labelbottom=False)
+ax[0].yaxis.set_tick_params(labelleft=False)
+ax[0].set_xticks([])
+ax[0].set_yticks([])
+ax[0].set_title("Original data")
+ax[1].scatter(out[:, 0], out[:, 1], **colorize)
+ax[1].set_title("Reconstructed data using MDS")
+ax[1].xaxis.set_tick_params(labelbottom=False)
+ax[1].yaxis.set_tick_params(labelleft=False)
+ax[1].set_xticks([])
+ax[1].set_yticks([])
+
+plt.tight_layout()
+``` 

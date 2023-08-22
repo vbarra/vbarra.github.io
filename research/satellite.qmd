@@ -1,0 +1,62 @@
+---
+title: "Satellite images analysis"
+editor: visual
+image: ../img/satellite.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+Remote sensing is an important technique for observing Earth surface applied to different areas such as, land use, urban planning, remote monitoring, real time deformation of the soil that can be associated with earthquakes or landslides, the variations in thickness of the glaciers, the measurement of volume changes in the case of volcanic eruptions, deforestation, etc …. To follow the evolution of these phenomena and to predict their future states, many approches have been proposed. However, these approches do not respond completely to the specialists who process yet more commonly the data extracted from the images in their studies to predict the future. In the context of a cotutelle with Tunisia, we proposed innovative methodologies based on hidden Markov models and the management of non stationnarities.
+
+## Vegetation monitoring
+--- 
+
+We proposed a Triplet Markov Chain (TMC) based technique to study vegetation monitoring using remotely sensed data. TMCs are a generalization of Hidden Markov Model (HMM). This latter has proved its ability to represent multi-temporal satellite images as well as to analyze vegetation dynamics on large scales. An interesting feature for the application of TMC is to use auxiliary processes which model the non-stationarity. The primary purpose of our work was to present a novel methodology based on TMC for modeling a non-stationary Normalized Difference Vegetation Index (NDVI) time series. In order to assess the performance of the proposed model, experiments were carried out using Moderate Resolution Imaging Spectroradiometer (MODIS) NDVI time series of the northwestern region of Tunisia. The developed model was also compared to classical HMM and Seasonal Auto Regressive Integrated Moving Average (SARIMA). TMC was the highest among three methods, with an overall classification accuracy of 92.8% and a kappa coefficient of 0.885.
+
+<center>
+<img src="../img/vegetation.png" alt= “” width="600" >
+</center>
+
+
+### Related publications
+
+1. A Ferchichi, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S1574954122000012" target="_blank">Forecasting vegetation indices from spatio-temporal remotely sensed data using deep learning-based approaches: A systematic literature review</a>. **Ecological Informatics**, 2022.
+
+2. A Sellami, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S016786552030324X" target="_blank">Fused 3-D spectral-spatial deep neural networks and spectral clustering for hyperspectral image classification</a>. **Pattern Recognition Letters**, 2020.
+  
+
+3. A Ben Abbess, M Farah, I Riadh Farah, V Barra. <a href="http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijids" target="_blank">A non-stationary NDVI time series modelling using triplet Markov chain</a>. **International Journal of Information and Decision Sciences**, 2019.
+  
+4. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Rare events detection in NDVI time-series using Jarque-Bera test. **IGARSS**, 2015.
+  
+5. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Seasonal Vegetation Prediction from Satellite image using Hidden Markov Model. **AITSRP**, 2013.
+  
+
+## Detection of changes in urban areas
+--- 
+
+Remotely sensed data are a significant source for monitoring and updating databases for land use/cover. Nowadays, changes detection of urban area has been a subject of intensive researches. Timely and accurate data on spatio-temporal changes of urban areas are therefore required. The data extracted from multi- temporal satellite images are usually non-stationary. In fact, the changes evolve in time and space. We proposed a methodology for changes detection in urban area by combining a non-stationary decomposition method and stochastic modeling. We consider as input of our methodology a sequence of satellite images at different periods. Firstly, a radiometric, atmospheric and geometric preprocessing of multi-temporal satellite images is applied.The systematic study of global urban expansion in our methodology can be approached in two ways: The first considers the urban area as one same object as opposed to non-urban areas (e.g. vegetation, bare soil and water). The objective is to extract the urban mask. The second one aims to obtain a more knowledge of urban area, distinguishing different types of tissue within the urban area. In order to validate our approach, we used a database of Tres Cantos-Madrid in Spain, which is derived from Landsat for a period (from January 2004 to July 2013) by collecting two frames per year at a spatial resolution of 25 meters. The obtained results show the effectiveness of our method.
+
+
+<center>
+<img src="../img/satellite2.png" alt= “” width="600" >
+</center>
+
+### Related publications
+
+1. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Urban Growth Analysis Using Multi- Temporal Satellite Images, Non-Stationary Decomposition Methods and Stochastic Modeling. **ICIAP**, 2016.
+  
+2. A Ben Abbess, I Riadh Farah, V Barra. <a href="http://waset.org/publications/10005834/urban-growth-analysis-using-multi-temporal-satellite-images-non-stationary-decomposition-methods-and-stochastic-modeling" target="_blank">Urban Growth Analysis Using Multi-Temporal Satellite Images, Non-stationary Decomposition Methods and Stochastic Modeling</a> **International Journal of Computer and Information Engineering**, 10:10, 1880-1886, 2016.
+
+3. A Ben Abbess, H Essid, I Riadh Farah, V Barra. A study of changes prediction by HMM with non-stationarity image data: Case of urban area. **ASTIP**, 2014.
+
+4. A Ben Abbess, H Essid, I Riadh Farah, V Barra. An adaptive multiplicative decomposition of non stationary multi-temporal satellite images: Application to urban changes detection. **IEEE IPAS**, 2014.
+
+5. H Essid, I Riadh Farah, V Barra. <a href="https://www.scirp.org/journal/PaperInformation.aspx?PaperID=36882" target="_blank">Towards an Intelligent Predictive Model for Analyzing Spatio-Temporal Satellite Image Based on Hidden Markov Chain</a> **Advances in Remote Sensing**, 2 : 247-257, 2013.
+
+6. H Essid, A ben Abbess, I Riadh Farah, V Barra. Spatio-temporal modeling based on hidden Markov model for object tracking in satellite imagery. **SETIT**, 2012.
+
+7. H Essid, I Riadh Farah, A Sellami, V Barra. <a href="https://hal.archives-ouvertes.fr/hal-00794297" target="_blank">Monitoring intra-urban changes with Hidden Markov Models using the spatial relationships</a> **International Journal on Graphics, Vision and Image Processing**, 12,1:49-55, 2012.

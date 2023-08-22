@@ -1,0 +1,32 @@
+---
+title: "Research projects"
+editor: visual
+image: img/research.jpg
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+listing: 
+  - id: research
+    contents: "research/*.qmd"
+    type: default
+    max-description-length: 100
+  - id: researchold
+    contents: "researchold/*.qmd"
+    type: default
+    max-description-length: 100
+---
+
+
+## Current projects
+:::{#research}
+:::
+
+## Past projects
+:::{#researchold}
+:::
+
+
+
+

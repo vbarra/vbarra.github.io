@@ -1,0 +1,111 @@
+---
+title: "Computational geometry"
+editor: visual
+image: ../img/homer.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+We develop methods combining computational geometry and machine learning to retrieve 3D shapes, map low-resolution surfaces or tile surfaces using quadrangles 
+
+<img src="../img/3Dshape.png" alt= “” width="500" >
+
+
+## 3D shape retrieval
+---
+
+3D shape retrieval is becoming an acute issue for numerous applications that span from CAD to serious games to biomedicine and all contexts where it is fundamental to automatically retrieve geometric information from a collection of 3D models. This paper addresses 3D shape retrieval in terms of a graph-based description and the definition of a corresponding similarity measure. For this purpose, 3D models are represented as bags of shortest paths defined over well chosen Extended Reeb graphs, while the similarity between pairs of Extended Reeb graphs is addressed through kernels adapted to these descriptions. Results are comparable with the best results of the literature, and the modularity and evolutivity of the method ensure its applicability to other problems, from partial shape matching to classification.
+
+<center>
+<img src="../img/kernel.jpg" alt= “” width="500" >
+</center>
+
+### Related publications
+
+ 1. V Barra, S Biasotti. <a href="https://link.springer.com/article/10.1007/s00371-014-0926-5" target="_blank">3D Shape retrieval and classification using Multiple Kernel Learning on Extended Reeb Graphs</a> **The Visual Computer**, 30 (11) 1247-1259, 2014.
+  
+
+ 2. H Aboubacar, V Barra, G Loosli. 3D shape retrieval using uncertain semantic query : a preliminary study. **ICPRAM’14**, 2014.
+  
+
+ 3. V Barra, S Biasotti. <a href="http://www.sciencedirect.com/science/article/pii/S0031320313001489" target="_blank">3D shape retrieval using Kernels on Extended Reeb Graphs</a> **Pattern Recognition**, 46:2985–2999, 2013.
+  
+
+ 4. V Barra, S Biasotti. Learning Kernels on Extended Reeb Graphs for 3D shape classification and retrieval. In **Proc of Eurographics Workshop on 3D Object Retrieval**, Girona, Spain, 2013.
+
+
+
+## Low-resolution Surface Mapping
+ ---
+
+There are several ways to produce 3D acquisitions from a real object (volumic acquisitions, point clouds generated from 3D scanners or cameras) Both of the data structures are usually turned into surfaces described by triangles, using isosurface reconstruction methods . Due to the precision and resolution, the resulting virtual surface may not capture the full topological and/or geometrical details of the original surface, and are prone to artifacts that misrepresent the data.
+
+Wa propose here to tackle the problem of mapping a surface acquired from a real object onto a piece of the plane, taking into account the topological and geometrical properties of the surface, as well as the specificity of low-resolution acquisitions. We introduce a cutting process used to manage the topological constraint of the one-to-one mapping, with some speedup improvements. Specific geometrical constraints linked to the low resolution context can be introduced
+
+In medical imaging, an unfolding approach has been described in a previous work, to produce a flattened map of the region of interest on the cortical surface, using T1-weigthed Magnetic Resonance Imaging scans. After some segmentation steps and a surface reconstruction, a mesh is obtained, modeling the region of interest on the cortical surface. The cutting method used here did not take into account geometry, producing maps with overlaps for high genus original surfaces. The approach described in here was applied to the meshes stemming from the original data. The resulting surface was then unfolded using classical unfolding tools.
+
+<center>
+<img src="../img/lowres.jpg" alt= “” width="500" >
+</center>
+
+(a): A neighbourhood of a central sulcus extracted from the original volumic data. 
+(b), (c), (d) : Cortical maps unfolded by Circle Packing after cutting steps (naïve, topological, and patching + topological). Dark grey shows regions of overlappings.
+
+### Related publications
+
+1. JM Favreau, V Barra. Low-resolution Surface Mapping : a Topological and Geometrical Approach. **EuroCG’09**, 2009.
+
+
+## Cutting Organic Surfaces
+---
+
+Mapping a given surface onto a piece of the plane is an usual problem, and conformal mappings with border free approaches are classical as non-distorting methods. However, algorithms of this category are only able to produce a mapping from a surface topo- logically equivalent to a disc. In the general case, a topological cutting is thus required. The approach we are reporting here is a method that does not only take into account the topologi- cal properties by cutting the original surface into a disc, but also the the geometrical properties by globally selecting the local extrema of original arm- like surfaces, we called organic surfaces.
+
+
+<center>
+<img src="../img/organic.jpg" alt= “” width="500" >
+</center>
+
+### Related publications
+
+1. JM Favreau, V Barra. Cutting an organic surface. **EuroCG’09**, 2009.
+
+
+## Surface tiling
+---
+
+Subdividing a surface into tubular regions is an abstraction of many segmentation problems, stemming from various applications from medical imaging to computer graphics. A tubular region, we will call a (topological) cylinder, can be defined as a surface homeomorphic to a cylinder, i.e. of genus zero with two boundaries. Tiling a surface with cylinders is a topological question, since the minimal number of cylindrical patches that will segment the surface is defined by its topology. It’s also a geometrical issue, since the connections between cylinders have to be driven by the shape of the surface. Moreover, some specific extrusions can be described by their own cylinder. We describe a formalism for segmenting a surface into cylinders using n-loops (an original generalization of the loops) as a cutting tool, to monitor the shape and length of the junctions. Using this formalism, the combinatorial configurations of the junctions between cylinders are precisely described, and the structure of the tilings can be exploited in the applicative fields.
+
+<center>
+<img src="../img/tiling.jpg" alt= “” width="500" >
+</center>
+
+
+### Related publications
+
+1. JM Favreau, V Barra. <a href="https://www.sciencedirect.com/science/article/pii/S0097849310001706" target="_blank">Tiling surfaces with cylinders using n-loops</a> **Computers & Graphics**, 35,1:35-42, 2011.
+
+2. JM Favreau, V Barra. Tiling Surfaces with Cylinders Using n-loops. **SMI**, 2010.
+
+
+
+## Surface quadrangulations using scalar functions
+
+Decomposing surfaces into quadrangle regions is a relevant issue both from a theoretical and an applicative point of view, and specific approaches have been described and applied in several domains. Control over the tiling topology and tile size and number is important as these factors highly influence the applicability, performance and use of the resulting quadrangulation. In this work, we describe an original approach to tile a surface with large quadrangles, satisfying combinatorial, geometrical and topological constraints. The large tiles resulting from our cutting process can be easily fitted by NURBS because of the properties of this decomposition. The topological control is managed through the critical points of a scalar function defined on the surface, and the cutting paths are not necesserily following the original mesh edges. These two specificities ensure that our approach is highly adjustable, and can include manual or automatic adjustements by modifying the scalar function. Results are presented, assessed and tested w.r.t. robustness and stability.
+
+<center>
+<img src="../img/cutting2.jpg" alt= “” width="500" >
+</center>
+
+### Related publications
+
+ 1. JM Favreau, S Biasotti, V Barra, M Spagnuolo. Surface quadrangulations using scalar functions. In **Proc of Eurographics Symposium on Geometry Processing Tallinn University of Tech**, 2012.
+  
+
+ 2. J. M Favreau, S Biasotti, V Barra, M Spagnuolo. N-loop computation using scalar functions. In **Proc of Seventh International Conference on Curves and Surfaces**, Avignon, 2010
+
+
+

@@ -1,0 +1,40 @@
+---
+title: Vincent BARRA
+page-layout: full
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/BarraVincent
+    - icon: github
+      text: Github
+      href: https://github.com/vbarra
+    - icon: mailbox
+      text: Email
+      href: mailto:vincent.barra@uca.fr
+    - icon: 0-circle-fill
+      text: orcid
+      href: https://orcid.org/0000-0002-8975-222X
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=dCHDwD4AAAAJ&hl=en
+    - icon: h-circle-fill
+      text: HAL
+      href: https://cv.hal.science/vincent-barra?langChosen=en
+    - icon: r-circle-fill
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Vincent_Barra
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vincent-barra-458690b4/
+---
+
+Clermont Auvergne INP - ISIMA / LIMOS\
+1, rue de la Chebarde\
+TSA 60125 - CS 60026\
+F-63178 Aubière Cedex, FRANCE
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1391.80061919686!2d3.109803556909496!3d45.759139664054025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slermont%20auvergne%20inpc!5e0!3m2!1sfr!2sfr!4v1687186491499!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+

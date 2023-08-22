@@ -1,0 +1,40 @@
+---
+title: "phD students"
+editor: visual
+image: ./img/chapeau.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+### Current PhD students
+---
+
+- D Benhaddouche, Machine Learning for Structural Health Monitoring, September 2021-September 2024 (70% <a href="https://www.cideco.tech/societe-equipe/" target="_blank"> A Chateauneuf</a>, CIFRE CIDECO)
+- GM Cherchi, Analysis of latent space in Deep generative models and its applications to polymer dynamics, September 2021-September 2024 (ICCF/LMBP/Michelin, <a href="https://iccf.uca.fr/annuaire/m-alain-dequidt#/"target="_blank"> A Dequidt</a> 50%, <a href="https://fr.linkedin.com/in/nicolas-martzel-46a637128" target="_blank"> N Martzel</a> 20%)
+- M Giannoulis, Deep Learning Analysis of multiple probe sensor networks to assess risk scenario's at volcanic hydrothermal ecosystems, January 2021-December 2023 (LMV, 50% <a href="https://lmv.uca.fr/harris-andrew/"target="_blank">  A Harris</a>)
+- A El Kaid, Pose estimation from monocular images using Deep Learning, october 2019 - september 2023 (50% <a href="http://ensias.um5.ac.ma/professor/m-karim-baina"target="_blank"> K Baina</a>, Rabat, Marroco, CIFRE Pryntec)
+
+
+### Past PhD students
+---
+
+- L Vaslin, Search for New Physics in the ATLAS experiment using semi-supervised or unsupervised Machine Learning techniques, October 2019-September 2022 (LPC, 70% <a href="https://annuaire.in2p3.fr/1627-8639/julien-donini" target="_blank"> J Donini </a>)
+- K Le Cornec, Multimodal deep learning, september 2017 - November 2020 
+- A Ben Abbess : Spatiotemporal satellite image analysis - september 2013 - december 2016. (50% <a href="https://scholar.google.com/citations?hl=fr&user=8XnHzoQAAAAJ&view_op=list_works&sortby=pubdate
+" target="_blank">R Farah</a>, ENSI Tunis)
+- N Settouti, Semi supervised classification of medical data, septembre 2013- may 2016. (50% M Chick, Univ. Tlemcen)
+- G Garcia, A software approach for the study of dyslexia, september 2011 –  december 2015
+- M Bombrun, High temporal thermal imaging of volcanic plumes, september 2012 - october 2015. (50% <a href="https://lmv.uca.fr/harris-andrew/"target="_blank">  A Harris</a>, LMV)
+- H Ben Touhami, Bayesian calibration and data mining for the study of climate changes, september 2011 – march 2014. (50% <a href="https://www6.clermont.inrae.fr/urep/Page-Personnelle/Gianni-Bellocchi2" target="_blank"> G Bellocchi </a>, INRA)
+- C Haen, SysEx: an expert system for System Administration, september 2010 - october 2013
+- H Essid, Hybrid spatiotemporal models for the study of satellite images,  september 2009 - december 2012. (50% <a href="https://scholar.google.com/citations?hl=fr&user=8XnHzoQAAAAJ&view_op=list_works&sortby=pubdate
+" target="_blank">R Farah</a>, ENSI Tunis)
+- T Penne, Video tracking,  september 2008 - october 2011 (50% <a href="http://www.institutpascal.uca.fr/index.php/fr/membres-tgi?idag=30" target="_blank"> C Tilmant </a>, Univ Blaise Pascal)
+- S Luquet, Transcranial magnetic stimulation, september 2005 - december 2009
+- JM Favreau, Some tools for surface unfolding, september 2006 - october 2009
+- J Montagner, Multimodal fusion for the targeting and the quantification of cerebral structures and actitities, september 2001 - december 2004
+- E Frenoux, Data fusion in brain image processing. Applications and validations, september 2000 - 17 december 2003
+

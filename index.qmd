@@ -1,0 +1,42 @@
+---
+title: Vincent BARRA
+image: img/vb.png
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/BarraVincent
+    - icon: github
+      text: Github
+      href: https://github.com/vbarra
+    - icon: mailbox
+      text: Email
+      href: mailto:vincent.barra@uca.fr
+    - icon: 0-circle-fill
+      text: orcid
+      href: https://orcid.org/0000-0002-8975-222X
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=dCHDwD4AAAAJ&hl=en
+    - icon: h-circle-fill
+      text: HAL
+      href: https://cv.hal.science/vincent-barra?langChosen=en
+    - icon: r-circle-fill
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Vincent_Barra
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vincent-barra-458690b4/
+---
+
+I’m a full professor in Computer Science at the <a href="http://limos.fr" target="_blank"> LIMOS</a> lab of Clermont-Auvergne University and CNRS.
+
+I’m Vice dean of <a href="https://www.clermont-auvergne-inp.fr" target="_blank">  Clermont-Auvergne-INP </a>(education and training) and Assistant director of LIMOS.
+
+My research interests are centered on data analysis, viewed from both a methodological and an applicative point of view. This include image and video processing, mesh processing, computational geometry, machine and deep learning.
+
+I mainly teach at <a href="http://www.isima.fr" target="_blank"> ISIMA</a>, an engineering school in computer science of Clermont-Auvergne INP.

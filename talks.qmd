@@ -1,0 +1,41 @@
+---
+title: "Talks"
+editor: visual
+image: img/seminar.jpg
+page-layout: full
+about:
+  template: solana
+  image-width: 12em
+  image-shape: round
+---
+
+## Invited talks and Seminars
+- [Research Seminar on Artificial Intelligence](https://www.u-bourgogne.fr/agenda/seminaire-ia-imvia), ImVia, (Dijon, France) Image to Image Translation. A review and a case study, December 2sd 2021
+- [IN2P3 School of Statistics](https://indico.in2p3.fr/event/20220/) (Carry le Rouet, France) -  *Tutorial on Machine Learning*,  May 21st - 25st 2020.
+- [MMIV](https://mmiv.no/upcoming/invited-talk-vincent-barra-quick-review-on-gans-with-applications/) Invited talk: A quick review on GAN's with application, Bergen, Norway, May 23rd 2019
+- [SDO Science Workshop](https://register-as.oma.be/sdo2018/), (Gent, Belgium) - *Invited talk on Machine Learning*, October 29th - November 2nd 2018
+- [IN2P3 School of Statistics](https://indico.in2p3.fr/event/16931/) (La Londe Les Maures, France) -  *Tutorial on Machine Learning*,  May 28th - June 1st 2018.
+- Journée GDR ISIS Avancées en Fusion de données (Paris, France) - Invited talk (in french),  *Fusion d'informations multi niveau en imagerie médicale : une approche par logique floue et ses applications*, February 11st 2010
+- Institute of Applied Mathematics and Information Technology, (Genoa, Italy) - Invited seminar - *A review on Fuzzy segmentation methods in medical image processing*, January 19th 2010.
+- Astronomical Institute, Academy of Sciences of Czech Republic (Ondrejov,Czech Republic) - Invited seminar, *Signal and Image Processing of solar corona images. From segmentation to motion analysis and image synthesis*, November 7th 2009.
+- INRA (Paris, France) - Invited talk (in french), *Validation des modèles et des méthodes en analyse d'images*, Conférence invitée,January 10th 2005
+
+### Scientific dissemination and public talks
+- Participation to several activities of Astu'Sciences ([La cabine téléphonique](https://www.clermontinnovationweek.eu/events/la-cabine-telephonique-le-chercheur-vous-rappelle/)...)
+- Participation to [Declics](http://www.cerclefser.org/en/), a program of the Cercle FSER (2021-2022)
+- Expert in the [Savanturiers](https://les-savanturiers.cri-paris.org/) association
+- Member of the expert committee in several scientific associations and manifestations (Expo'Sciences, Eure'kart,...)
+- Participation to "Courts de Sciences" 
+- The digital world. Impacts of AI and Big Data, [Expo'Sciences](https://www.echosciences-auvergne.fr/evenements/mon-monde-numerique-de-demain), May 28th 2020
+- Live on Twitch [Tout se comprend (in french)](https://www.twitch.tv/videos/621134375), May 14th 2020
+- Neural network, Deep learning: an introduction with applications to pedagogic projects, IREM, April 15th 2020
+- Introduction to Recommandation systems using AI, "Mathematics and Digital" seminar, organized by the Rectorship, January 29th 2020
+- Introduction to Artficial Intelligence, Hope and Fears, Lions Club, December 17th 2019
+- Artificial Intelligence in Médicine, [Pint of Science](https://pintofscience.fr/event/e-vision), May 22nd 2019
+- Big Data, "bar des Sciences", March 5th 2019
+- Introduction to Artificial Intelligence, Forum Sécurité et Résilience, March 21st 2019
+- [Introduction to GAN](https://theconversation.com/competition-entre-reseaux-de-neurones-artificiels-pour-creer-des-images-realistes-110005), The conversation, February 7th 2019
+- Artificial Intelligence : what future for our child, Conference for the French Alliance, January 10th 2019
+- [Apprentissage automatique et réseaux de neurones](http://tangente-mag.com/article.php?id=4193). Tangente, Hors série 68, pp 44-47, 2018.
+- Articifial Intelligence in Medicine, CROM, December 1st 2018
+- Artificial Intelligence, "bar des Sciences", February 18th 2018
