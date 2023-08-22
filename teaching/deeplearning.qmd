@@ -28,8 +28,8 @@ Introduction to Deep Learning. Concepts and main networks. Use cases in classifi
 5.  RNN, LSTM and GRU
 6.  Attention mechanisms and transformers
 7.  Transfert Learning
-8.  Generative networks - GAN and VAE
-9.  Siamese Networks
+8.  Generative models  - GAN, VAE and diffusion
+9.  Graph neural networks
 
 
 #### **Example**
