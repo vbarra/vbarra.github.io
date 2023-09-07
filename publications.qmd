@@ -203,6 +203,8 @@ about:
 ## Conference proceedings
 ---
 
+**69-** G.M. CHERCHI, A. DEQUIDT, V. BARRA, P. HAURET, A. GUILLIN, N/ MARTZEL, Discovering Long-term Polymer Dynamics with Generative Deep Neural Networks, Workshop on Machine Learning for Multiscale Molecular Modeling, 2023.
+
 **68-**  D. BENHADDOUCHE, A. CHATEAUNEUF1 , V. BARRA, Identification et localisation des défauts structuraux sur les ponts par auto-encodeur profond, Proc 12èmes Journées de Fiabilité des Matériaux et des Structures, 2023.
 
  **67- ** A. El Kaid, K. Baina, J. Baina, V. Barra. Real-world case study of a deep learning enhanced Elderly Person Fall Video-Detection System. VISAPP 2023, 2023.
