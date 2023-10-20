@@ -58,17 +58,18 @@ about:
 ## Work in progress
 ---
 
- **4- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah.Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series. **Engineering Applications of Artificial Intelligence**, 2022 (submitted, minor revisions)
+ **3- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah.Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series. **Engineering Applications of Artificial Intelligence**, 2022 (submitted, minor revisions)
 
- **3- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** 2023 (submitted)
+ **2- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** 2023 (submitted)
 
-  **2- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C** (submitted)
-
+  
  **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.
 
 
 ## Journal articles
 ---
+
+ **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C** (accepted)
 
  **46- ** J Zhang, Y Yu, V Barra, X Ruan, Y Chen, B Cai, <a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2023.2231113" target="_blank"> Feasibility study on using house-tree-person drawings for automatic analysis of depression</a>, **Computer Methods in Biomechanics and Biomedical Engineering**, 2023
 
