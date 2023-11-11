@@ -58,9 +58,11 @@ about:
 ## Work in progress
 ---
 
+**4- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 (submitted)
+
  **3- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah.Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series. **Engineering Applications of Artificial Intelligence**, 2022 (submitted, minor revisions)
 
- **2- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** 2023 (submitted)
+ **2- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science**, 2023 (submitted)
 
   
  **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.
