@@ -1,29 +1,3 @@
----
-title: Machine Learning
-image: ../img/emvplot.png
-page-layout: full
-about:
-  template: solana
-  image-width: 12em
-  image-shape: round
----
-
-#### **Course description**
----
-
-Introduction to supervised and unsupervised machine learning algorithms. Applications in Python using <a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn </a>
-
-#### **Syllabus**
----
-
-1. Introduction to Machine Learning and to developement tools
-2. Feature selection and Manifold learning
-3. Classification algorithms
-4. Kernel methods for classification and regression
-5. Ensemble methods
-6. Hidden Markov Models
-
-
 #### **Example**
 --- 
 Illustration on supervised classification methodss
