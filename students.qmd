@@ -11,6 +11,7 @@ about:
 
 ### Current PhD students
 ---
+
 - G Levillain, Identification of probability densities from data by a maximum entropy neural network, September 2022, September 2025 (70% <a href="http://www.institutpascal.uca.fr/index.php/fr/membres-m3g?idag=952" target="_blank"> P Beaurepaire</a>, Institut Pascal)
 - D Benhaddouche, Machine Learning for Structural Health Monitoring, September 2021-September 2024 (70% <a href="https://www.cideco.tech/societe-equipe/" target="_blank"> A Chateauneuf</a>, CIFRE CIDECO)
 - GM Cherchi, Analysis of latent space in Deep generative models and its applications to polymer dynamics, September 2021-September 2024 (ICCF/LMBP/Michelin, <a href="https://iccf.uca.fr/annuaire/m-alain-dequidt#/"target="_blank"> A Dequidt</a> 50%, <a href="https://fr.linkedin.com/in/nicolas-martzel-46a637128" target="_blank"> N Martzel</a> 20%)
