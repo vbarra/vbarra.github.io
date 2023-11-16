@@ -6,11 +6,6 @@ about:
   template: solana
   image-width: 12em
   image-shape: round
-jupyter: 
-  kernelspec:
-    name: "python3"
-    language: "python"
-    display_name: "Python 3.9"
 ---
 
 #### **Course description**
