@@ -352,79 +352,137 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>Fitting 5 folds for each of 3 candidates, totalling 15 fits
 est parameters for Bayes {'var_smoothing': 1e-09}
 Fitting 5 folds for each of 3 candidates, totalling 15 fits
-est parameters for LDA {'shrinkage': 1}
+est parameters for LDA {'shrinkage': 0}
 Fitting 5 folds for each of 3 candidates, totalling 15 fits
 est parameters for QDA {'tol': 0.0001}
 Fitting 5 folds for each of 6 candidates, totalling 30 fits
 est parameters for knn {'n_neighbors': 5, 'weights': 'uniform'}
 Fitting 5 folds for each of 162 candidates, totalling 810 fits
-est parameters for arbre {'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 1}
+est parameters for arbre {'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 5}
 Fitting 5 folds for each of 10 candidates, totalling 50 fits
 est parameters for svmlin {'C': 0.01}
 Fitting 5 folds for each of 20 candidates, totalling 100 fits
-est parameters for svmrbf {'C': 0.1, 'gamma': 0.5}
+est parameters for svmrbf {'C': 10.0, 'gamma': 0.5}
 Fitting 5 folds for each of 90 candidates, totalling 450 fits
-est parameters for svmpoly {'coef0': 1, 'degree': 5}
+est parameters for svmpoly {'coef0': 1, 'degree': 4}
 *** Results for  Bayes  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.81      0.88        58
+           1       0.86      0.97      0.91        67
+    accuracy                           0.90       125
+   macro avg       0.91      0.89      0.89       125
+weighted avg       0.90      0.90      0.89       125
 *** Results for  LDA  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.79      0.87        58
+           1       0.84      0.97      0.90        67
+    accuracy                           0.89       125
+   macro avg       0.90      0.88      0.89       125
+weighted avg       0.90      0.89      0.89       125
 *** Results for  QDA  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.81      0.88        58
+           1       0.86      0.97      0.91        67
+    accuracy                           0.90       125
+   macro avg       0.91      0.89      0.89       125
+weighted avg       0.90      0.90      0.89       125
 *** Results for  knn  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.95      0.93      0.94        58
+           1       0.94      0.96      0.95        67
+    accuracy                           0.94       125
+   macro avg       0.94      0.94      0.94       125
+weighted avg       0.94      0.94      0.94       125
 *** Results for  arbre  ***
               precision    recall  f1-score   support
-           0       0.97      0.99      0.98        68
-           1       0.98      0.96      0.97        57
-    accuracy                           0.98       125
-   macro avg       0.98      0.98      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.93      0.90      0.91        58
+           1       0.91      0.94      0.93        67
+    accuracy                           0.92       125
+   macro avg       0.92      0.92      0.92       125
+weighted avg       0.92      0.92      0.92       125
 *** Results for  svmlin  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.81      0.88        58
+           1       0.86      0.97      0.91        67
+    accuracy                           0.90       125
+   macro avg       0.91      0.89      0.89       125
+weighted avg       0.90      0.90      0.89       125
 *** Results for  svmrbf  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.90      0.93        58
+           1       0.92      0.97      0.94        67
+    accuracy                           0.94       125
+   macro avg       0.94      0.93      0.94       125
+weighted avg       0.94      0.94      0.94       125
 *** Results for  svmpoly  ***
               precision    recall  f1-score   support
-           0       0.99      1.00      0.99        68
-           1       1.00      0.98      0.99        57
-    accuracy                           0.99       125
-   macro avg       0.99      0.99      0.99       125
-weighted avg       0.99      0.99      0.99       125
+           0       0.96      0.88      0.92        58
+           1       0.90      0.97      0.94        67
+    accuracy                           0.93       125
+   macro avg       0.93      0.92      0.93       125
+weighted avg       0.93      0.93      0.93       125
 </code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
   warnings.warn(
 /Users/vibarra/Library/Python/3.9/lib/python/site-packages/sklearn/svm/_base.py:1244: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
   warnings.warn(
@@ -461,7 +519,7 @@ weighted avg       0.99      0.99      0.99       125
 <p><img src="ml_files/figure-html/cell-2-output-3.png" width="662" height="470"></p>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="ml_files/figure-html/cell-2-output-4.png" width="963" height="1335"></p>
+<p><img src="ml_files/figure-html/cell-2-output-4.png" width="950" height="1335"></p>
 </div>
 <div class="cell-output cell-output-display">
 <p><img src="ml_files/figure-html/cell-2-output-5.png" width="589" height="429"></p>
