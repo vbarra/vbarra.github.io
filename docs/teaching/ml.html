@@ -358,69 +358,69 @@ est parameters for QDA {'tol': 0.0001}
 Fitting 5 folds for each of 6 candidates, totalling 30 fits
 est parameters for knn {'n_neighbors': 5, 'weights': 'uniform'}
 Fitting 5 folds for each of 162 candidates, totalling 810 fits
-est parameters for arbre {'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 2}
+est parameters for arbre {'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 1}
 Fitting 5 folds for each of 10 candidates, totalling 50 fits
-est parameters for svmlin {'C': 90.01}
+est parameters for svmlin {'C': 60.01}
 Fitting 5 folds for each of 20 candidates, totalling 100 fits
-est parameters for svmrbf {'C': 10.0, 'gamma': 1}
+est parameters for svmrbf {'C': 100.0, 'gamma': 0.01}
 Fitting 5 folds for each of 90 candidates, totalling 450 fits
 est parameters for svmpoly {'coef0': 1, 'degree': 2}
 *** Results for  Bayes  ***
               precision    recall  f1-score   support
-           0       0.97      1.00      0.98        57
-           1       1.00      0.97      0.99        68
-    accuracy                           0.98       125
-   macro avg       0.98      0.99      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.88      0.87      0.88        69
+           1       0.84      0.86      0.85        56
+    accuracy                           0.86       125
+   macro avg       0.86      0.86      0.86       125
+weighted avg       0.86      0.86      0.86       125
 *** Results for  LDA  ***
               precision    recall  f1-score   support
-           0       0.93      1.00      0.97        57
-           1       1.00      0.94      0.97        68
-    accuracy                           0.97       125
-   macro avg       0.97      0.97      0.97       125
-weighted avg       0.97      0.97      0.97       125
+           0       0.86      0.86      0.86        69
+           1       0.82      0.82      0.82        56
+    accuracy                           0.84       125
+   macro avg       0.84      0.84      0.84       125
+weighted avg       0.84      0.84      0.84       125
 *** Results for  QDA  ***
               precision    recall  f1-score   support
-           0       0.97      1.00      0.98        57
-           1       1.00      0.97      0.99        68
-    accuracy                           0.98       125
-   macro avg       0.98      0.99      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.89      0.86      0.87        69
+           1       0.83      0.88      0.85        56
+    accuracy                           0.86       125
+   macro avg       0.86      0.87      0.86       125
+weighted avg       0.87      0.86      0.86       125
 *** Results for  knn  ***
               precision    recall  f1-score   support
-           0       0.95      1.00      0.97        57
-           1       1.00      0.96      0.98        68
-    accuracy                           0.98       125
-   macro avg       0.97      0.98      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.89      0.86      0.87        69
+           1       0.83      0.88      0.85        56
+    accuracy                           0.86       125
+   macro avg       0.86      0.87      0.86       125
+weighted avg       0.87      0.86      0.86       125
 *** Results for  arbre  ***
               precision    recall  f1-score   support
-           0       0.95      0.98      0.97        57
-           1       0.98      0.96      0.97        68
-    accuracy                           0.97       125
-   macro avg       0.97      0.97      0.97       125
-weighted avg       0.97      0.97      0.97       125
+           0       0.85      0.93      0.89        69
+           1       0.90      0.80      0.85        56
+    accuracy                           0.87       125
+   macro avg       0.88      0.87      0.87       125
+weighted avg       0.87      0.87      0.87       125
 *** Results for  svmlin  ***
               precision    recall  f1-score   support
-           0       0.97      1.00      0.98        57
-           1       1.00      0.97      0.99        68
-    accuracy                           0.98       125
-   macro avg       0.98      0.99      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.89      0.78      0.83        69
+           1       0.77      0.88      0.82        56
+    accuracy                           0.82       125
+   macro avg       0.83      0.83      0.82       125
+weighted avg       0.83      0.82      0.82       125
 *** Results for  svmrbf  ***
               precision    recall  f1-score   support
-           0       0.97      1.00      0.98        57
-           1       1.00      0.97      0.99        68
-    accuracy                           0.98       125
-   macro avg       0.98      0.99      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.89      0.90      0.89        69
+           1       0.87      0.86      0.86        56
+    accuracy                           0.88       125
+   macro avg       0.88      0.88      0.88       125
+weighted avg       0.88      0.88      0.88       125
 *** Results for  svmpoly  ***
               precision    recall  f1-score   support
-           0       0.97      1.00      0.98        57
-           1       1.00      0.97      0.99        68
-    accuracy                           0.98       125
-   macro avg       0.98      0.99      0.98       125
-weighted avg       0.98      0.98      0.98       125
+           0       0.89      0.90      0.89        69
+           1       0.87      0.86      0.86        56
+    accuracy                           0.88       125
+   macro avg       0.88      0.88      0.88       125
+weighted avg       0.88      0.88      0.88       125
 </code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
@@ -519,7 +519,7 @@ weighted avg       0.98      0.98      0.98       125
 <p><img src="ml_files/figure-html/cell-2-output-3.png" width="662" height="470"></p>
 </div>
 <div class="cell-output cell-output-display">
-<p><img src="ml_files/figure-html/cell-2-output-4.png" width="949" height="1335"></p>
+<p><img src="ml_files/figure-html/cell-2-output-4.png" width="950" height="1335"></p>
 </div>
 <div class="cell-output cell-output-display">
 <p><img src="ml_files/figure-html/cell-2-output-5.png" width="589" height="429"></p>
