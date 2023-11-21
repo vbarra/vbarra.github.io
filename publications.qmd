@@ -208,9 +208,9 @@ about:
 ---
 
 
-**70-** G.M. CHERCHI, A. DEQUIDT, V. BARRA, P. HAURET, A. GUILLIN, N. MARTZEL,ML-Enhanced Generalized Langevin Equation for simulating Transient Anomalous Diffusion in Polymer Melts, Machine Learning and the Physical Sciences Workshop at the 37th conference on Neural Information Processing Systems (NeurIPS), 2023
+**70-** G.M. Cherchi, A. Dequidt, V. Barra, P. Hauret, A. Guillin, N. Martzel, ML-Enhanced Generalized Langevin Equation for simulating Transient Anomalous Diffusion in Polymer Melts, Machine Learning and the Physical Sciences Workshop at the 37th conference on Neural Information Processing Systems (NeurIPS), 2023
 
-**69-** G.M. CHERCHI, A. DEQUIDT, V. BARRA, P. HAURET, A. GUILLIN, N. MARTZEL, Discovering Long-term Polymer Dynamics with Generative Deep Neural Networks, Workshop on Machine Learning for Multiscale Molecular Modeling, 2023.
+**69-** G.M. Cherchi, A. Dequidt, V. Barra, P. Hauret, A. Guillin, N. Martzel, Discovering Long-term Polymer Dynamics with Generative Deep Neural Networks, Workshop on Machine Learning for Multiscale Molecular Modeling, 2023.
 
 **68-**  D. BENHADDOUCHE, A. CHATEAUNEUF1 , V. BARRA, Identification et localisation des défauts structuraux sur les ponts par auto-encodeur profond, Proc 12èmes Journées de Fiabilité des Matériaux et des Structures, 2023.
 
