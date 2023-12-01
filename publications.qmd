@@ -70,7 +70,7 @@ about:
 ## Journal articles
 ---
 
-**48- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, 2023 (accepted) 
+**48- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, Vol. 128, 2024. 
 
  **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 2023 (accepted)
 
