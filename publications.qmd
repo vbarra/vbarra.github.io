@@ -72,7 +72,7 @@ about:
 
 **48- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, Vol. 128, 2024. 
 
- **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 2023 (accepted)
+ **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://link.springer.com/article/10.1140/epjc/s10052-023-12169-4" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 2023 (accepted)
 
  **46- ** J Zhang, Y Yu, V Barra, X Ruan, Y Chen, B Cai, <a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2023.2231113" target="_blank"> Feasibility study on using house-tree-person drawings for automatic analysis of depression</a>, **Computer Methods in Biomechanics and Biomedical Engineering**, 2023
 
