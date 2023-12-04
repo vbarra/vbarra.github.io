@@ -55,16 +55,17 @@ about:
  **1- ** E Frenoux, V Barra, JY Boire. Segmentation du striatum par fusion d’informations numériques et symboliques. In <a href="https://link.springer.com/book/9782287597626"target="_blank">  Télémédecine et e-santé</a>, R Beuscart,P Zweigenbaum,A Venot,P Degoulet, Springer eds., 2002.
 
 
-## Work in progress
+## Submitted
 ---
+**5- ** M Giannoulis, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, Frontiers Special Issue "Applications of Machine Learning in Volcanology", 2024
 
-**3- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 (submitted)
+**4- ** O CHAKOORY, V BARRA, E ROCHETTE, L BLANCHON,V SAPIN, E MERLIN, M PONS, D GALLOT, S COMTET-MARRE, P PEYRET,D eepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration, Science translational medicine, 2024
 
+**3- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 
 
- **2- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science**, 2023 (submitted)
-
+ **2- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science**, 2023 
   
- **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.
+ **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **SciPost Physics**, 2024.
 
 
 ## Journal articles
