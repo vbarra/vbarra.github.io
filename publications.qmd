@@ -57,9 +57,9 @@ about:
 
 ## Submitted
 ---
-**5- ** M Giannoulis, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, Frontiers Special Issue "Applications of Machine Learning in Volcanology", 2024
+**5- ** M Giannoulis, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
-**4- ** O Chakoory, V Barra, E Rochette, L Blanchon,V Sapin, E Merlin, M Pons, D Gallot, S Comtet-Marre, P Peyret, DeepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration, Science translational medicine, 2024
+**4- ** O Chakoory, V Barra, E Rochette, L Blanchon,V Sapin, E Merlin, M Pons, D Gallot, S Comtet-Marre, P Peyret, DeepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration, **Science translational medicine**, 2024
 
 **3- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 
 
