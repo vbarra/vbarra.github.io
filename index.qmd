@@ -22,7 +22,7 @@ about:
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=dCHDwD4AAAAJ&hl=en
-    - icon: dblp
+    - icon: union
       text: DBLP
       href: https://dblp.uni-trier.de/pid/87/987.html
     - icon: h-circle-fill
