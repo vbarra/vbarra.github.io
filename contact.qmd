@@ -4,24 +4,30 @@ page-layout: full
 about:
   template: trestles
   links:
+    - icon: mailbox
+      text: Email
+      href: mailto:vincent.barra@uca.fr
     - icon: twitter
       text: Twitter
       href: https://twitter.com/BarraVincent
     - icon: github
       text: Github
       href: https://github.com/vbarra
-    - icon: mailbox
-      text: Email
-      href: mailto:vincent.barra@uca.fr
     - icon: 0-circle-fill
       text: orcid
       href: https://orcid.org/0000-0002-8975-222X
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=dCHDwD4AAAAJ&hl=en
+    - icon: union
+      text: DBLP
+      href: https://dblp.uni-trier.de/pid/87/987.html
     - icon: h-circle-fill
       text: HAL
       href: https://cv.hal.science/vincent-barra?langChosen=en
+    - icon: h-circle-fill
+      text: CV HAL
+      href: https://cv.hal.science/vincent-barra
     - icon: r-circle-fill
       text: ResearchGate
       href: https://www.researchgate.net/profile/Vincent_Barra
