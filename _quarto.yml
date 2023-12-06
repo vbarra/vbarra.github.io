@@ -37,6 +37,8 @@ website:
       - href: contact.qmd
         text: Contact
         icon: person-circle
+      - text: "{{< ai dblp >}}"
+        href: http://www/google.fr
 
 format:
   html:
