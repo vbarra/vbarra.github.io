@@ -1,0 +1,16 @@
+{
+  "listing": "/research.html",
+  "items": [
+    "/research/anomaly.html",
+    "/research/volcano.html",
+    "/research/satellite.html",
+    "/research/solar.html",
+    "/researchold/bioinfo.html",
+    "/researchold/brain.html",
+    "/researchold/geometry.html",
+    "/researchold/eit.html",
+    "/researchold/robotics.html",
+    "/researchold/thigh.html",
+    "/researchold/tracking.html"
+  ]
+}
