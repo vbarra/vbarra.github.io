@@ -25,9 +25,6 @@ about:
     - icon: h-circle-fill
       text: HAL
       href: https://cv.hal.science/vincent-barra?langChosen=en
-    - icon: h-circle-fill
-      text: CV HAL
-      href: https://cv.hal.science/vincent-barra
     - icon: r-circle-fill
       text: ResearchGate
       href: https://www.researchgate.net/profile/Vincent_Barra
