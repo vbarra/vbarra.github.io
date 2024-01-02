@@ -77,18 +77,18 @@ about:
 
 **48- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, Vol. 128, 2024. 
 
- **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://link.springer.com/article/10.1140/epjc/s10052-023-12169-4" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 2023 (accepted)
+ **47- ** L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://link.springer.com/article/10.1140/epjc/s10052-023-12169-4" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 83: 1008, 2023
 
  **46- ** J Zhang, Y Yu, V Barra, X Ruan, Y Chen, B Cai, <a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2023.2231113" target="_blank"> Feasibility study on using house-tree-person drawings for automatic analysis of depression</a>, **Computer Methods in Biomechanics and Biomedical Engineering**, 2023
 
- **45- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://scipost.org/SciPostPhysCodeb.15"target="_blank"> pyBumpHunter: A model independent bump hunting tool in Python for High Energy Physics analyses </a>, **SciPost Physics**, 2023 
+ **45- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://scipost.org/SciPostPhysCodeb.15"target="_blank"> pyBumpHunter: A model independent bump hunting tool in Python for High Energy Physics analyses </a>, **SciPost Physics**, 15, 2023 
 
- **44- ** M Giannoulis, A Harris, V Barra, DITAN: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320323005125" target="_blank"> A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies </a>, **Pattern Recognition** 2023 
+ **44- ** M Giannoulis, A Harris, V Barra, DITAN: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320323005125" target="_blank"> A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies </a>, **Pattern Recognition**, 143, 2023 
 
-**43- ** A. El Kaid, D.Brazey, V. Barra, K.Baïna. <a href="https://www.mdpi.com/1424-8220/22/11/4109" target="_blank">Top-Down System for Multi-Person 3D Absolute Pose Estimation from Monocular Videos</a>. **Sensors**, 2022.
+**43- ** A. El Kaid, D.Brazey, V. Barra, K.Baïna. <a href="https://www.mdpi.com/1424-8220/22/11/4109" target="_blank">Top-Down System for Multi-Person 3D Absolute Pose Estimation from Monocular Videos</a>. **Sensors**, 22, 2022.
  
 
- **42- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S1574954122000012" target="_blank">Forecasting vegetation indices from spatio-temporal remotely sensed data using deep learning-based approaches: A systematic literature review</a>. **Ecological Informatics**, 2022.
+ **42- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S1574954122000012" target="_blank">Forecasting vegetation indices from spatio-temporal remotely sensed data using deep learning-based approaches: A systematic literature review</a>. **Ecological Informatics**, 68, 2022.
 
  **41- ** V Barra. <a href="http://infinimath.com/pole/publications.php?collection=Tangente%20HS%20kiosque#" target="_blank">Segmentation d'images</a>. **Tangente**, Hors série 77, 2021.
 
@@ -98,13 +98,13 @@ about:
   **39- ** G Fillières-Riveau, JM Favreau, V Barra, G Touya. <a href="https://hal.uca.fr/hal-03208233" target="_blank">Génération de cartes tactiles photoréalistes pour personnes déficientes visuelles par apprentissage profond</a>. **Revue Internationale de Géomatique**, 1-2, 105-126, 2020.
  
 
-  **38- ** A Sellami, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S016786552030324X" target="_blank">Fused 3-D spectral-spatial deep neural networks and spectral clustering for hyperspectral image classification</a>. **Pattern Recognition Letters**, 2020.
+  **38- ** A Sellami, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S016786552030324X" target="_blank">Fused 3-D spectral-spatial deep neural networks and spectral clustering for hyperspectral image classification</a>. **Pattern Recognition Letters**, 138, 2020.
   
 
-  **37- ** A Ben Abbess, M Farah, I Riadh Farah, V Barra. <a href="http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijids" target="_blank">A non-stationary NDVI time series modelling using triplet Markov chain</a>. **International Journal of Information and Decision Sciences**, 2019.
+  **37- ** A Ben Abbess, M Farah, I Riadh Farah, V Barra. <a href="https://www.inderscience.com/info/inarticle.php?artid=101143" target="_blank">A non-stationary NDVI time series modelling using triplet Markov chain</a>. **International Journal of Information and Decision Sciences**, 11, 2019.
   
 
-  **36- ** N Spatola, C Belletier, P Chausse, M Augustinova, A Normand, V Barra, L Ferrand, P Huguet. <a href="https://link.springer.com/article/10.1007/s12369-018-00511-w" target="_blank">Improved cognitive control in presence of anthropomorphized robots</a>. **International Journal of Social Robotics**, 2019.
+  **36- ** N Spatola, C Belletier, P Chausse, M Augustinova, A Normand, V Barra, L Ferrand, P Huguet. <a href="https://link.springer.com/article/10.1007/s12369-018-00511-w" target="_blank">Improved cognitive control in presence of anthropomorphized robots</a>. **International Journal of Social Robotics**, 11: 463–476,2019.
   
 
   **35- ** V Barra. <a href="http://tangente-mag.com/article.php?id=4193" target="_blank">Apprentissage automatique et réseaux de neurones</a>. **Tangente**, Hors série 68, pp 44-47, 2018.
