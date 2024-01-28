@@ -38,7 +38,9 @@ We applied our method on multivariate timeeseries analysis of Vulcano, recorded 
 
 ### Related publications
 
-1. ·  M Giannoulis, A Harris, V Barra, DITAN: A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies, **Pattern Recognition** 2023 (accepted)
+1. ·  M Giannoulis, A Harris, V Barra, DITAN: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320323005125" target="_blank"> A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies </a>, **Pattern Recognition**, 143, 2023 
+
+2. M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers in Earth Science**, 2024 (submitted)
 
 
 

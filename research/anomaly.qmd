@@ -22,7 +22,8 @@ we developed DITAN, a novel unsupervised domain-agnostic framework for detecting
 
 ### Related publications
 
-1. ·  M Giannoulis, A Harris, V Barra, DITAN: A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies, **Pattern Recognition** 2023 (accepted)
+1. ·  M Giannoulis, A Harris, V Barra, DITAN: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320323005125" target="_blank"> A deep-learning domain agnostic framework for Detection and Interpretation of Temporally-based multivariate ANomalies </a>, **Pattern Recognition**, 143, 2023 
+
 
 
 
@@ -46,8 +47,8 @@ A second algorithm using a GAN-AE defined an anomaly detection method based on u
 
 ### Related publications
 
-1. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://scipost.org/submission/2208.14760v4/"target="_blank"> pyBumpHunter: A model independent bump hunting tool in Python for High Energy Physics analyses </a>, **SciPost**, 2023 (accepted)
+1. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://scipost.org/SciPostPhysCodeb.15"target="_blank"> pyBumpHunter: A model independent bump hunting tool in Python for High Energy Physics analyses </a>, **SciPost Physics**, 15, 2023 
 
-2. L Vaslin, V. Barra, J Donini. GAN-AE, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> An anomaly detection algorithm for New Physics search in LHC data </a> **Preprint ArXiv**, 2023.
+2. L Vaslin, V. Barra, J Donini, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> GAN-AE, An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 83: 1008, 2023.
 
 3. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.

@@ -23,16 +23,19 @@ We proposed a Triplet Markov Chain (TMC) based technique to study vegetation mon
 
 ### Related publications
 
-1. A Ferchichi, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S1574954122000012" target="_blank">Forecasting vegetation indices from spatio-temporal remotely sensed data using deep learning-based approaches: A systematic literature review</a>. **Ecological Informatics**, 2022.
 
-2. A Sellami, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S016786552030324X" target="_blank">Fused 3-D spectral-spatial deep neural networks and spectral clustering for hyperspectral image classification</a>. **Pattern Recognition Letters**, 2020.
+1. A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, Vol. 128, 2024. 
+
+2. A Ferchichi, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S1574954122000012" target="_blank">Forecasting vegetation indices from spatio-temporal remotely sensed data using deep learning-based approaches: A systematic literature review</a>. **Ecological Informatics**, 2022.
+
+3. A Sellami, A Ben Abbes, V Barra, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S016786552030324X" target="_blank">Fused 3-D spectral-spatial deep neural networks and spectral clustering for hyperspectral image classification</a>. **Pattern Recognition Letters**, 2020.
   
 
-3. A Ben Abbess, M Farah, I Riadh Farah, V Barra. <a href="http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijids" target="_blank">A non-stationary NDVI time series modelling using triplet Markov chain</a>. **International Journal of Information and Decision Sciences**, 2019.
+4. A Ben Abbess, M Farah, I Riadh Farah, V Barra. <a href="http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijids" target="_blank">A non-stationary NDVI time series modelling using triplet Markov chain</a>. **International Journal of Information and Decision Sciences**, 2019.
   
-4. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Rare events detection in NDVI time-series using Jarque-Bera test. **IGARSS**, 2015.
+5. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Rare events detection in NDVI time-series using Jarque-Bera test. **IGARSS**, 2015.
   
-5. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Seasonal Vegetation Prediction from Satellite image using Hidden Markov Model. **AITSRP**, 2013.
+6. A Ben Abbess, H Essid, I Riadh Farah, V Barra. Seasonal Vegetation Prediction from Satellite image using Hidden Markov Model. **AITSRP**, 2013.
   
 
 ## Detection of changes in urban areas
