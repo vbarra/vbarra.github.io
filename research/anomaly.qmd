@@ -51,4 +51,4 @@ A second algorithm using a GAN-AE defined an anomaly detection method based on u
 
 2. L Vaslin, V. Barra, J Donini, <a href="https://arxiv.org/abs/2305.15179" target="_blank"> GAN-AE, An anomaly detection algorithm for New Physics search in LHC data </a> **The European Physical Journal C**, 83: 1008, 2023.
 
-3. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **Preprint ArXiv**, 2023.
+3. L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **SciPost Physics**, 2024 (submitted).
