@@ -63,7 +63,7 @@ about:
 
 **6- **  M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers in Earth Science**, 2024
 
-**5- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Nature Medicine**, 2024
+**5- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
 
 **4- ** M Giannoulis, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
