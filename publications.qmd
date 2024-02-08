@@ -217,6 +217,7 @@ about:
 ## Conference proceedings
 ---
 
+**71-** G. Levillain, P. Beaurepaire, V. Barra, Neural network-based probability density function identification, 34-th European Safety and Reliability Conference, 2024
 
 **70-** G.M. Cherchi, A. Dequidt, V. Barra, P. Hauret, A. Guillin, N. Martzel, ML-Enhanced Generalized Langevin Equation for simulating Transient Anomalous Diffusion in Polymer Melts, Machine Learning and the Physical Sciences Workshop at the 37th conference on Neural Information Processing Systems (NeurIPS), 2023
 
