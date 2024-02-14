@@ -78,7 +78,7 @@ about:
 ---
 
 
-**49- ** O Chakoory, V Barra, E Rochette, L Blanchon,V Sapin, E Merlin, M Pons, D Gallot, S Comtet-Marre, P Peyret, DeepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration, **Biomarker research**, 2024
+**49- ** O Chakoory, V Barra, E Rochette, L Blanchon,V Sapin, E Merlin, M Pons, D Gallot, S Comtet-Marre, P Peyret, <a href="https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-024-00557-1"target="_blank" > DeepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration </a>, **Biomarker research**, 2024
 
 **48- ** A Ferchichi, A Ben Abbes, V Barra, M. Rhif, I.R Farah. <a href="https://www.sciencedirect.com/science/article/pii/S0952197623017475" target="_blank"> Multi-Attention Generative Adversarial Network for Multi-Step Vegetation Indices Forecasting using Multivariate Time Series</a>, **Engineering Applications of Artificial Intelligence**, Vol. 128, 2024. 
 
