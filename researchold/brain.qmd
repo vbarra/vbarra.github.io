@@ -134,9 +134,7 @@ We illustrated the concept on the fusion of T2-weighted (T2) and proton density 
 </center>
 
 ### Related publications
-
-1. V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - **Proceedings of the 10th World Congress on Medical Informatics**, London, UK, 2001.
-  
+ 
 2. V Barra, JY Boire. Quantification of brain tissue volumes using MR/MR fusion. **IEEE EMBS’00**, 2000.
   
 3. V Barra, JY Boire. MR Images Fusion for Brain Tissues Volume Measurement. **CVPRIP’00**, 2000.
