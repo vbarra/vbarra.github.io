@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Homepage - Vincent BARRA - Brain Image processing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Homepage - Vincent BARRA - Brain Image processing">
+<meta property="og:description" content="">
+<meta property="og:image" content="../img/brain.png">
+<meta property="og:site_name" content="Homepage - Vincent BARRA">
+<meta name="twitter:title" content="Homepage - Vincent BARRA - Brain Image processing">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="../img/brain.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Homepage - Vincent BARRA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-question-circle" role="img">
+</i> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> <i class="bi bi-calculator" role="img">
+</i> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications.html"> <i class="bi bi-book" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talks.html"> <i class="bi bi-easel" role="img">
+</i> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../students.html"> <i class="bi bi-mortarboard" role="img">
+</i> 
+<span class="menu-text">phD Students</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> <i class="bi bi-journal-bookmark" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../admin.html"> <i class="bi bi-bank" role="img">
+</i> 
+<span class="menu-text">Admin</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html"> <i class="bi bi-person-circle" role="img">
+</i> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#topology-correction-of-brain-surfaces" id="toc-topology-correction-of-brain-surfaces" class="nav-link active" data-scroll-target="#topology-correction-of-brain-surfaces">Topology correction of brain surfaces</a>
+  <ul class="collapse">
+  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">Related publications</a></li>
+  </ul></li>
+  <li><a href="#topographic-analysis-of-electrode-contacts-in-human-cortical-stimulation" id="toc-topographic-analysis-of-electrode-contacts-in-human-cortical-stimulation" class="nav-link" data-scroll-target="#topographic-analysis-of-electrode-contacts-in-human-cortical-stimulation">Topographic Analysis of Electrode Contacts in Human Cortical Stimulation</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-1" id="toc-related-publications-1" class="nav-link" data-scroll-target="#related-publications-1">Related publications</a></li>
+  </ul></li>
+  <li><a href="#transcranial-magnetic-stimulation" id="toc-transcranial-magnetic-stimulation" class="nav-link" data-scroll-target="#transcranial-magnetic-stimulation">Transcranial Magnetic Stimulation</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-2" id="toc-related-publications-2" class="nav-link" data-scroll-target="#related-publications-2">Related publications</a></li>
+  </ul></li>
+  <li><a href="#analysis-of-segmentation-methods" id="toc-analysis-of-segmentation-methods" class="nav-link" data-scroll-target="#analysis-of-segmentation-methods">Analysis of Segmentation Methods</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-3" id="toc-related-publications-3" class="nav-link" data-scroll-target="#related-publications-3">Related publications</a></li>
+  </ul></li>
+  <li><a href="#fusion-of-imageexpert-information" id="toc-fusion-of-imageexpert-information" class="nav-link" data-scroll-target="#fusion-of-imageexpert-information">Fusion of Image/Expert information</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-4" id="toc-related-publications-4" class="nav-link" data-scroll-target="#related-publications-4">Related publications</a></li>
+  </ul></li>
+  <li><a href="#mrmr-image-fusion" id="toc-mrmr-image-fusion" class="nav-link" data-scroll-target="#mrmr-image-fusion">MR/MR Image Fusion</a></li>
+  <li><a href="#anatomical-functional-image-fusion" id="toc-anatomical-functional-image-fusion" class="nav-link" data-scroll-target="#anatomical-functional-image-fusion">Anatomical / Functional Image Fusion</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-5" id="toc-related-publications-5" class="nav-link" data-scroll-target="#related-publications-5">Related publications</a></li>
+  </ul></li>
+  <li><a href="#brain-image-segmentation" id="toc-brain-image-segmentation" class="nav-link" data-scroll-target="#brain-image-segmentation">Brain image segmentation</a>
+  <ul class="collapse">
+  <li><a href="#related-publications-6" id="toc-related-publications-6" class="nav-link" data-scroll-target="#related-publications-6">Related publications</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<div class="quarto-about-solana content column-page-left">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Brain Image processing</h1>
+</div>
+<div class="quarto-title-meta column-page-left">
+  </div>
+</header> 
+      <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
+
+<section id="topology-correction-of-brain-surfaces" class="level2">
+<h2 data-anchor-id="topology-correction-of-brain-surfaces">Topology correction of brain surfaces</h2>
+<hr>
+<p>Brain surfaces provide a reliable representation for cortical mapping. The construction of correct surfaces from magnetic resonance images (MRI) segmentation is a challenging task, especially when genus zero surfaces are required for further processing such as parameterization, partial inflation and registration. The generation of such surfaces has been approached either by correcting a binary image as part of the segmentation pipeline or by modifying the mesh representing the surface. During this task, the preservation of the structure may be compromised because of the convoluted nature of the brain and noisy/imperfect segmentations. In this paper, we propose a combined, voxel and surface based, topology correction method which preserves the structure of the brain while yielding genus zero surfaces. The topology of the binary segmentation is first corrected using a set of topology preserving operators applied sequentially. This results in a white matter/gray matter binary set with correct sulci delineation, homotopic to a filled sphere. Using the corrected segmentation, a marching cubes mesh is then generated and the tunnels and handles resulting from the meshing are finally removed with an algorithm based on the detection of nonseparating loops.</p>
+<center>
+<img src="../img/braintopo.png" alt="“”" width="500">
+</center>
+<p>The approach was validated using 20 young individuals MRI from the OASIS database, acquired at two different timepoints. Reproducibility and robustness were evaluated using global and local criteria such as surface area, curvature and point to point distance. Results demonstrated the method capability to produce genus zero meshes while preserving geometry, two fundamental properties for reliable and accurate cortical mapping and further clinical studies.</p>
+<section id="related-publications" class="level3">
+<h3 data-anchor-id="related-publications">Related publications</h3>
+<ol type="1">
+<li><p>O Acosta, J Fripp, V Dore, P Bourgeat, JM Favreau, G Chetelat, A Rueda, A Villemagne, C Szoekea, D Ames, R Martins, C Masters, C Rowe, E Bonner, F Gris, D Xiao, P Raniga, V Barra, O Salvado. <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwig8ePdxM__AhWEXvEDHaLEAmAQFnoECA8QAQ&amp;url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0165027011007485&amp;usg=AOvVaw0qI4L2Z0VaS4fQknFCsxnU&amp;opi=89978449" target="_blank">Cortical surface mapping using topology correction‚ partial flattening and 3D shape context-based non-rigid registration for use in quantifying atrophy in Alzheimer’s disease</a> <strong>Journal of Neuroscience Methods</strong>, 205:96-109, 2012.</p></li>
+<li><p>F Gris, JM Favreau, O Acosta, V Barra, O Salvado. A combined voxel and surface based method for topology correction of brain surfaces. <strong>SPIE Medical Imaging</strong>, 2010.</p></li>
+</ol>
+</section>
+</section>
+<section id="topographic-analysis-of-electrode-contacts-in-human-cortical-stimulation" class="level2">
+<h2 data-anchor-id="topographic-analysis-of-electrode-contacts-in-human-cortical-stimulation">Topographic Analysis of Electrode Contacts in Human Cortical Stimulation</h2>
+<hr>
+<p>Electric chronic stimulation of the human motor cortex (ECSM) has been reported to alleviate chronic severe pain. However the mechanism of action of ECSM is still hypothetical. This is due mainly to the poor knowledge of, 1) the electric diffusion through the multiple structures beneath the epidural contacts (i.e.&nbsp;dura matter, cerebrospinal fluid space, arachnoid membrane, grey and white matter layers, pie mere and vascular tree), 2) the absence of consensus concerning the stimulation parameters (mono versus bipolar stimulation, cathodic or anodic current) and 3) the detailed cortical topography of the contacts. In this study we focused on the precise identification of the cortical areas covered by the electric contacts in a series of twelve patients operated on for ECSM. We proposed a new automatic tool for topographic analysis able to compute 2D maps from the 3D anatomic MRI with bijective transformation (point-to- point correspondance). Anatomical regions of interest (AROIs) were visually identified, manually outlined and extracted (Iplan, BrainLab, Germany) for further analysis : 1) for the anatomic structures, on pre operative T1-weigthed magnetic resonance imaging (MRI), the frontal (superior or F1, intermediate or F2 and inferior or F3), the pre central and the post central gyrus ; 2) for the electrode contacts (Resume, Medtronic, USA), on post operative computerized tomography (CT). After getting white and gray matter membership maps by automatic segmentation, we produced a cortical mask to build a triangular mesh. We defined a homeomorphism between the 3D mesh and a subset of R2 and could apply in consequence the circle packing algorithm. We built depth maps (distance to the skull), distance to- contact maps (distance to a given electrode contact) and anatomic structure maps.</p>
+<center>
+<img src="../img/electrodes.png" alt="“”" width="500">
+</center>
+<p>Results showed that it was easier to accurately define the location of the contact projection on the cortex allowing physicians to correlate the benefit with the topography. In particular, because of the unfolding, it was easier to integrate the cytoarchitectonics (i.e.&nbsp;the manually identified AROIs) knowledge in the analysis. Beyond the better understanding of ECSM and indirectly of the pathophysiologic process of chronic pain, this new tool might be used in the future for image guided electrode positioning.</p>
+<section id="related-publications-1" class="level3">
+<h3 data-anchor-id="related-publications-1">Related publications</h3>
+<ol type="1">
+<li>JM Favreau, V Barra. Conformal Flattening of the Cortical Surface using a Topological and Geometrical Cutting. <strong>SEECCM’09</strong>, 2009.</li>
+<li>JM Favreau, S Hemm, C Nuti, J Coste, V Barra, JJ Lemaire. A Tool for Topographic Analysis of Electrode Contacts in Human Cortical Stimulation. <strong>ICCV-07</strong>, 2007</li>
+</ol>
+</section>
+</section>
+<section id="transcranial-magnetic-stimulation" class="level2">
+<h2 data-anchor-id="transcranial-magnetic-stimulation">Transcranial Magnetic Stimulation</h2>
+<hr>
+<p>Transcranial Magnetic Stimulation (TMS) is a technique for brain stimulation. As another techniques like ElectroConvulsive Therapy (ECT) or the implantation of electrodes into motor cortex, TMS excites neurones. But contrary to those techniques, TMS is painless and noninvasive. Indeed, neurones are excited by electrical current induced by a rapidly changing magnetic field. This field is created by the discharge of thyristor (during about 300 μs) into a coil i.e a copper winding surrounded by a water-cooled system. The current circulating through the coil is about 10000 A in order to allow magnetic field to cross the skull of the patient.</p>
+<p>Using TMS is sometimes still empirical. The clinician who wants to stimulate a specific cortex area given an expected result (phosphene, modification of vision, motor effect) will perform several stimulations, scanning over the patient’s scalp to find the most important response.</p>
+<p>We thus proposed in this project to develop a transcranial magnetic stimulation simulator : according to position and orientation of the coil and to the parameters of the stimulation, the simulator will give a modelling of the stimulation effects. Result will be mapped on MRI image of the patient.</p>
+<p>The TMS simulator is composed of three main tools :</p>
+<ul>
+<li>A numerical tool, to compute magnetic field generated by a given coil at any point of the empty-space. The aim is first to assess the magnetic field induced by the coil, then to provide a finite-element scheme boundaries conditions and finally to finite-element computation in free space.</li>
+<li>A design tool, able to take into account the specificity of each winding copper shape. For a given contour, the user has only to define a 3D-parametrical curve and the expression of its derivative</li>
+<li>An interface tool, providing some results such as the maps of magnetic and potential vector field, mapped on a 3D brain of the patient, and some interactions ( position/orientation of the coil w.r.t. the patient…)</li>
+</ul>
+<center>
+<img src="../img/tms.png" alt="“”" width="500">
+</center>
+<section id="related-publications-2" class="level3">
+<h3 data-anchor-id="related-publications-2">Related publications</h3>
+<ol type="1">
+<li><p>E Innocenti, S Luquet, D Hill, V Barra. Model driven Engineering for a Transcranial Magnetic Stimulation simulation. <strong>ESM’10</strong>, 2010.</p></li>
+<li><p>S Luquet, V Barra, JJ Lemaire. Transcranial Magnetic Stimulation : Magnetic Field Computation in empty free space. <strong>IEEE EMBS’05</strong>, 2005.</p></li>
+<li><p>S Luquet, V Barra, C Haug, JJ Lemaire. Development of a software for transcranial magnetic stimulation : potential magnetic field mapping on human brain. <strong>IBMISPS’06</strong>, 2005.</p></li>
+</ol>
+</section>
+</section>
+<section id="analysis-of-segmentation-methods" class="level2">
+<h2 data-anchor-id="analysis-of-segmentation-methods">Analysis of Segmentation Methods</h2>
+<hr>
+<p>The objective of this project was to test new methods and compare state-of-the-art software for brain tissue segmentation and brain morphometry from 3D MR images. The methods we included in our study concerned local algorithms (LIMOS and Bergen), and segmentation algorithms provided by SPM5, FreeSurfer, and FSL. This eﬀort was related to a multidisciplinary project on cognitive aging where the group in Bergen has acquired dual volume T1-weighted 3D brain images from 110 elderly subjects (age : 46-79 years) where also genotyping (APOE, Chrna4, BDNF) and results from extensive neuropsychological phenotyping is obtained. The best performing methods from the brain segmentation and morphometric studies were then be applied to this large image collection and numerical measures incorporated into statistical analysis for better insight in the aging process.</p>
+<p>More speciﬁcally, the present project addressed the following issues :</p>
+<ul>
+<li>Methods for performance evaluation</li>
+<li>Optimal use of dual MR acquisitions (separate volume classiﬁcation ? image registration ? value of single versus dual acquisition ?)</li>
+<li>Inﬂuence of spatial inhomogeneities and noise in the MR signal, how to correct it ? Derive parameters (regional tissue volumes, cortical thickness, etc) that can be used in a broader statistical analysis with other biological and behavioral data</li>
+<li>Make results (test-data, programs, evaluations) available on Web</li>
+</ul>
+<center>
+<img src="../img/aurora.png" alt="“”" width="500">
+</center>
+<section id="related-publications-3" class="level3">
+<h3 data-anchor-id="related-publications-3">Related publications</h3>
+<ol type="1">
+<li><p>F Klauschen, A Goldman, V Barra, A Meyer-Lindenberg, A Lundervold. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18537111" target="_blank">Evaluation of MR-brain-volumetry methods</a> <strong>Human Brain Mapping</strong>, 30, 1310-1327, 2008</p></li>
+<li><p>V Barra, A Lundervold. A Collaborative Software Tool for the Evaluation of MRI Brain Segmentation Methods. <strong>ISITC’07</strong>, 2007.</p></li>
+</ol>
+</section>
+</section>
+<section id="fusion-of-imageexpert-information" class="level2">
+<h2 data-anchor-id="fusion-of-imageexpert-information">Fusion of Image/Expert information</h2>
+<hr>
+<p>Expert knowledge information relate to indications of position, of form…, and can be clarified as fuzzy proposals (modeling the reflexions of a specialist) and/or as a brain atlas . Fusion thus takes place on heterogeneous and rather complementary data which are not necessarily expressed within the same formal framework (numerical for the images and the atlas, linguistics for expert knowledge). The interest of fusion is here to push back the decision (the segmentation of structures for example) until having sufficient information. This remark, which prevails in general for fusion, is remarkably illustrated in this type of problem, where the information of gray level or coarse position is not enough with the segmentation, but where the aggregation of the whole set of knowledge allows to infer a reliable decision.</p>
+<p>The use of this type of method relates mainly to the segmentation of cerebral structures starting from images, atlas and symbolic data modeling expert knowledge. This segmentation can take place for the whole brain with, for example, a research of the hemispheres and cerebellum or stick more particularly to the detection of fine anatomical structures implied in specific pathologies. The clinical implications go then from the targeting of structures for a help to the surgical act to the follow-up of morphometric measurements of a pathological entity.</p>
+<p>We applied this method :</p>
+<ul>
+<li>to the segmentation of the subthalamic nucleus within the framework of the treatment of the idiopathic Parkinson’s disease by electrostimulation</li>
+<li>to the segmentation of striatum</li>
+</ul>
+<center>
+<img src="../img/expert.png" alt="“”" width="500">
+</center>
+<section id="related-publications-4" class="level3">
+<h3 data-anchor-id="related-publications-4">Related publications</h3>
+<ol type="1">
+<li><p>V Barra, JJ Lemaire, F Durif, JY Boire. Segmentation of the Subthalamic Nucleus in MR Images Using Information Fusion - A Preliminary Study for a Computed-Aided Surgery of Parkinson’s Disease. <strong>MICCAI</strong>, 2001.</p></li>
+<li><p>E Frenoux, V Barra, JY Boire. Segmentation of the striatum using data fusion,. In <strong>Proc of 22th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</strong>, Istambul, 2001.</p></li>
+<li><p>V Barra, JY Boire. <a href="https://dx.doi.org/10.1109/42.932740" target="_blank">Automatic Segmentation of subcortical brain Structures in MR Images using Information Fusion</a> <strong>IEEE Transactions on Medical Imaging</strong> 20:549-58, 2001.</p></li>
+</ol>
+</section>
+</section>
+<section id="mrmr-image-fusion" class="level2">
+<h2 data-anchor-id="mrmr-image-fusion">MR/MR Image Fusion</h2>
+<hr>
+<ol type="1">
+<li><p>V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - <strong>Proceedings of the 10th World Congress on Medical Informatics</strong>, London, UK, 2001.</p></li>
+<li><p>V Barra, JY Boire. Quantification of brain tissue volumes using MR/MR fusion. <strong>IEEE EMBS’00</strong>, 2000.</p></li>
+<li><p>V Barra, JY Boire. MR Images Fusion for Brain Tissues Volume Measurement. <strong>CVPRIP’00</strong>, 2000.</p></li>
+</ol>
+</section>
+<section id="anatomical-functional-image-fusion" class="level2">
+<h2 data-anchor-id="anatomical-functional-image-fusion">Anatomical / Functional Image Fusion</h2>
+<hr>
+<p>We proposed to fuse anatomical (A) and functional (F) information coming from medical imaging. We focused on brain imaging, although the principle may be extended to other organs provided image are spatially registered. The anatomical images mainly consisted of MR images that give information on structural composition of the organ (distribution of tissues, fine spatial resolution). They can be obtain using a wide range of parameters, so that the resulting images provide sufficient contrasts between the different structures to be located (tissue interfaces, tumors,…). The functional images were obtained by injecting a radioactive tracer that preferentially characterized a physiologic (e.g., glucose metabolism) or a biologic process (e.g., blood flow). Two major functional modalities are used in brain imaging : SPECT and PET. These images had a bad spatial resolution and are not informative on what they were not supposed to represent.</p>
+<p>In the following, anatomical and functional images were supposed to be registered. The same voxel (x,y,z) in the images thus corresponds to the same anatomical location. The registration procedure must be accurate enough to limit the amount of imprecision introduced. We then proposed a three-step fusion process</p>
+<ul>
+<li>Image modeling : information was extracted from the images and was modeled in a common theoretical frame to manage vague and ambiguous knowledge</li>
+<li>Fusion of image information : the information was then aggregated with a fusion operator. This operator must affirm redundancy and manage the complementarities and conflicts that often underline the presence of a pathology ;</li>
+<li>Decision : a fusion image was proposed that synthesized the available information.</li>
+</ul>
+<center>
+<img src="../img/fuz1.png" alt="“”" width="500">
+</center>
+<center>
+<img src="../img/fuz2.png" alt="“”" width="500">
+</center>
+<section id="related-publications-5" class="level3">
+<h3 data-anchor-id="related-publications-5">Related publications</h3>
+<ol type="1">
+<li><p>J Montagner, V Barra. Multilevel Information Fusion : A Mixed Fuzzy Logic/Geometrical Approach with Applications in Brain Image Processing. in <a href="https://www.intechopen.com/books/3594" target="_blank"> Sensor and Data Fusion</a>, In-Teh, Nada Milisavljevic Eds, 299-322, 2009.</p></li>
+<li><p>J Montagner, V Barra, JY Boire. A Geometrical Approach to Multiresolution Management in the Fusion of Digital Images. <strong>VIEW’06</strong>, 2006.</p></li>
+<li><p>J Montagner, V Barra, JY Boire. Synthesis of a Functional Information with Anatomical Landmarks by Multiresolution Fusion of Brain Images. <strong>IEEE EMBS’05</strong>, 2005.</p></li>
+<li><p>J Montagner, V Barra, JP Reveilles, JY Boire. Multiresolution Images Fusion for the Quantification of Neuronal Activity: A Discrete Approach. In <strong>Proc of 3rd IASTED International Conference on Biomedical Engineering</strong>, Innsbruck, 2005.</p></li>
+<li><p>N Boussion, L Cinotti, V Barra, P Ryvlin, F Maugiere. <a href="https://www.ncbi.nlm.nih.gov/pubmed/12880795" target="_blank">Extraction of epileptogenic foci from PET and SPECT images by fuzzy modeling and data fusion</a> <strong>NeuroImage</strong>, 19:646-654, 2003.</p></li>
+<li><p>E Frenoux, V Barra, MO Habert, JY Boire. A New Method for the Quantitative Study of Neurotransmission. In <strong>Proc of 24th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</strong>, Cancun, 2003.</p></li>
+<li><p>E Frenoux, V Barra, JY Boire. Quantification of neurotransmission defects in functional imaging using information fusion: A prospective study. <strong>IPMU’02</strong>, 2002.</p></li>
+<li><p>E Frenoux, V Barra, JY Boire. Segmentation du striatum par fusion d’informations numériques et symboliques. In <a href="https://link.springer.com/book/9782287597626" target="_blank"> Télémédecine et e-santé</a>, R Beuscart,P Zweigenbaum,A Venot,P Degoulet, Springer eds., 2002.</p></li>
+<li><p>J Montagner, L Buzer, V Barra, JP Reveilles, JY Boire. Utilisation de la géométrie discrète pour la fusion d’images anatomiques et fonctionnelles. In <a href="https://link.springer.com/book/9782287597626" target="_blank"> Télémédecine et e-santé</a>, R Beuscart,P Zweigenbaum,A Venot,P Degoulet, Springer eds., 2002.</p></li>
+<li><p>V Barra, JY Boire. <a href="https://www.sciencedirect.com/science/article/pii/S1053811900907079" target="_blank">A General Framework for the Fusion of Anatomical and Functional Medical Images</a> <strong>NeuroImage</strong> 13:410-424, 2001.</p></li>
+<li><p>V Barra, JY Boire. Aggregation of anatomical and functional Information by a MR/SPECT Fusion Process : Application to neurodegenerative Pathologies. In <strong>Proc of the Sixth Annual Meeting of the Organization for human Brain Mapping</strong>, San Antonio, USA, 2000.</p></li>
+<li><p>V Barra, JY Boire. Correction of Partial Volume Effects in SPECT using a MR/SPECT Fusion Process. In <strong>Proc of the European Association of Nuclear Medicine Annual Congress</strong>, Paris, 2000.</p></li>
+<li><p>V Barra, A Colin, JY Boire. Synthesis of a High Resolution functional Image by an MR/SPECT Fusion Process. In <strong>Proc of the European Association of Nuclear Medicine Annual Congress</strong>, Berlin, Germany, 1998.</p></li>
+</ol>
+</section>
+</section>
+<section id="brain-image-segmentation" class="level2">
+<h2 data-anchor-id="brain-image-segmentation">Brain image segmentation</h2>
+<hr>
+<p>The ability of precisely quantifying cerebral tissue volumes in various diseases (Alzheimer, hydrocephaly…) must make it possible to largely improve the diagnosis, the treatment and the general understanding of pathologies. We proposed in 2000 a unsupervised fuzzy classification scheme for brain tissue segmentation. The boundary between brain in an MR image is smooth or fuzzy rather than sharp or crisp. Moreover, noise, partial volume effect and anatomical variations within pure tissue (White Matter,Gray Matter, Cerebrospinal Fluid) activities introduce uncertainty and fuzzyness in the image. We thus used a fuzzy clustering algorithm rather than a crisp one, and particularly the possibilistic clustering algorithm (PCA). PCA allows to interpret memberships as absolute degrees of belonging, whereas they are similar to degrees of sharing or relative memberships in the case of FCM. Because of the complex nature of (GM/WM) or (GM/CF) interfaces in MR images, a significant number of voxels contains a mixture of two or three tissues.</p>
+<center>
+<img src="../img/brainseg.png" alt="“”" width="500">
+</center>
+<section id="related-publications-6" class="level3">
+<h3 data-anchor-id="related-publications-6">Related publications</h3>
+<ol type="1">
+<li><p>F Klauschen, A Goldman, V Barra, A Meyer-Lindenberg, A Lundervold. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18537111" target="_blank">Evaluation of MR-brain-volumetry methods</a> <strong>Human Brain Mapping</strong>, 30, 1310-1327, 2008.</p></li>
+<li><p>C Vidal, V Barra, R Nicolson, JY Boire, T DeVito, J Geaga, K Hayashi, D Drost, P Williamson, N Rajakumar, A Toga, P Thompson. <a href="http://www.sciencedirect.com/science/article/pii/S0925492707002284?via%3Dihub" target="_blank">Three-dimensional mapping of the lateral ventricles in autism</a> <strong>Psychiatry Research, NeuroImaging</strong>, 163, 106-115, 2008.</p></li>
+<li><p>V Barra, E Frenoux, JY Boire. <a href="http://onlinelibrary.wiley.com/store/10.1002/jmri.10032/asset/10032_ftp.pdf?v=1&amp;t=jb6kku7q&amp;s=6e39e347672d3b540c34eda61ba6de4febce86c2" target="_blank">Automatic volumetric measurement of lateral ventricles on MR images with correction of partial volume effects</a> <strong>Journal of Magnetic Resonance Imaging</strong> 15:16-22, 2002.</p></li>
+<li><p>V Barra, JY Boire. <a href="http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291522-2586%28200003%2911:3%3C267::AID-JMRI5%3E3.0.CO;2-8/full" target="_blank">Tissue Segmentation on MR Images by a possibilistic Clustering on a 3D Wavelet Representation</a> <strong>Journal of Magnetic Resonance Imaging</strong> 11:267-278, 2000.</p></li>
+</ol>
+
+
+</section>
+</section>
+</main></div>
+    </div>
+    <img src="../img/brain.png" class="about-image
+  round " style="height: 12em; width: 12em;">
+  </div>
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
