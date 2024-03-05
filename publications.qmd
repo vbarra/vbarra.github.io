@@ -396,7 +396,7 @@ about:
  **10- ** V Barra, JJ Lemaire, F Durif, JY Boire. Segmentation of the Subthalamic Nucleus in MR Images Using Information Fusion - A Preliminary Study for a Computed-Aided Surgery of Parkinson's Disease. MICCAI, 2001.
   
 
- **9- ** V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - Proceedings of the 10th World Congress on Medical Informatics, , London, UK, 2001.
+ **9- ** V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - Proceedings of the 10th World Congress on Medical Informatics, London, UK, 2001.
   
 
  **8- ** E Frenoux, V Barra, JY Boire. Segmentation of the striatum using data fusion,. In Proc of 22th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Istambul, 2001.
