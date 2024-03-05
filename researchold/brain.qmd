@@ -125,6 +125,10 @@ We applied this method :
 
 ## MR/MR Image Fusion
 ---
+We proposed in this project to aggregate MR images resulting different types of acquisition. The goal here was to precisely quantify volumes of principal cerebral tissues (white substance, gray substance, cerebrospinal fluid). Generally, a precise quantification of these volumes must make it possible to help with the diagnosis, the comprehension and the treatment of some pathologies.
+
+We illustrated the concept on the fusion of T2-weighted (T2) and proton density (PD) images. The method was a three step fusion process. The first one involved the computation of fuzzy tissue maps in both images by means of a possibilistic clustering algorithm. The choice of fuzzy logic is motivated by the nature of information. The second step was an aggregation step, while the final segmentation was is the last phase of the process
+
 
 
 1. V Barra, P Briandet, JY Boire. Fusion in Medical Imaging: Theory, Interests and Industrial Applications. In MEDINFO 2001 - **Proceedings of the 10th World Congress on Medical Informatics**, London, UK, 2001.
