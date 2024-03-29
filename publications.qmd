@@ -23,6 +23,9 @@ about:
     - icon: r-circle-fill
       text: ResearchGate
       href: https://www.researchgate.net/profile/Vincent_Barra
+    - icon: stripe
+      text: Web Of Science
+      href: https://www.webofscience.com/wos/author/record/AAS-8453-2021
 ---
 
 
