@@ -76,7 +76,7 @@ about:
 ## Journal articles
 ---
 
- **50- ** M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science**, 2024
+ **50- ** M Dannehl, V Delouille, V Barra,  <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA002974" target="_blank">An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks</a>, **Earth and Space Science**, 2024
   
 **49- ** O Chakoory, V Barra, E Rochette, L Blanchon,V Sapin, E Merlin, M Pons, D Gallot, S Comtet-Marre, P Peyret, <a href="https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-024-00557-1"target="_blank" > DeepMPTB: Deep neural network for predicting the risk of preterm birth through vaginal microbiome exploration </a>, **Biomarker research**, 2024
 
