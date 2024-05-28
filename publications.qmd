@@ -64,9 +64,7 @@ about:
 ## Submitted
 ---
 
-**4- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
-
-**3- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
+**3- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
 
 **2- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 
 
@@ -75,6 +73,8 @@ about:
 
 ## Journal articles
 ---
+
+ **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, External factors driving surface temperature changes above geothermal systems: answers from Deep Learning, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
  **50- ** M Dannehl, V Delouille, V Barra,  <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA002974" target="_blank">An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks</a>, **Earth and Space Science**, 2024
   
