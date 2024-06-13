@@ -74,7 +74,7 @@ about:
 ## Journal articles
 ---
 
- **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, <a href="https://www.frontiersin.org/articles/10.3389/feart.2024.1372621/abstract"target-"_blank">External factors driving surface temperature changes above geothermal systems: answers from Deep Learning </a>, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
+ **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, <a href="https://www.frontiersin.org/articles/10.3389/feart.2024.1372621/abstract"target="_blank">External factors driving surface temperature changes above geothermal systems: answers from Deep Learning </a>, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
  **50- ** M Dannehl, V Delouille, V Barra,  <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA002974" target="_blank">An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks</a>, **Earth and Space Science**, 2024
   
