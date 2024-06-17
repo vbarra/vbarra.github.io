@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,12 +48,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,7 +57,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -129,37 +123,10 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Homepage - Vincent BARRA - Research projects">
 <meta property="og:image" content="img/research.jpg">
-<meta property="og:site_name" content="Homepage - Vincent BARRA">
+<meta property="og:site-name" content="Homepage - Vincent BARRA">
 <meta name="twitter:title" content="Homepage - Vincent BARRA - Research projects">
 <meta name="twitter:image" content="img/research.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -169,9 +136,9 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Homepage - Vincent BARRA</span>
     </a>
@@ -183,50 +150,50 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-question-circle" role="img">
+    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-question-circle" role="img">
 </i> 
-<span class="menu-text">About</span></a>
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> <i class="bi bi-calculator" role="img">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page"><i class="bi bi-calculator" role="img">
 </i> 
-<span class="menu-text">Research</span></a>
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="./publications.html" rel="" target=""><i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">Publications</span></a>
+ <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> <i class="bi bi-easel" role="img">
+    <a class="nav-link" href="./talks.html" rel="" target=""><i class="bi bi-easel" role="img">
 </i> 
-<span class="menu-text">Talks</span></a>
+ <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./students.html"> <i class="bi bi-mortarboard" role="img">
+    <a class="nav-link" href="./students.html" rel="" target=""><i class="bi bi-mortarboard" role="img">
 </i> 
-<span class="menu-text">phD Students</span></a>
+ <span class="menu-text">phD Students</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> <i class="bi bi-journal-bookmark" role="img">
+    <a class="nav-link" href="./teaching.html" rel="" target=""><i class="bi bi-journal-bookmark" role="img">
 </i> 
-<span class="menu-text">Teaching</span></a>
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./admin.html"> <i class="bi bi-bank" role="img">
+    <a class="nav-link" href="./admin.html" rel="" target=""><i class="bi bi-bank" role="img">
 </i> 
-<span class="menu-text">Admin</span></a>
+ <span class="menu-text">Admin</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> <i class="bi bi-person-circle" role="img">
+    <a class="nav-link" href="./contact.html" rel="" target=""><i class="bi bi-person-circle" role="img">
 </i> 
-<span class="menu-text">Contact</span></a>
+ <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -244,14 +211,14 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-solana content column-page-left">
+<div class="quarto-about-solana column-page-left">
   <div class="about-entity">
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Research projects</h1>
 </div>
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
   </div>
 </header> 
       <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
@@ -260,92 +227,84 @@ window.Quarto = {
 <h2 data-anchor-id="current-projects">Current projects</h2>
 <div id="listing-research" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1706431104000" data-listing-reading-time-sort="3" data-listing-word-count-sort="485">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1706431104621" data-listing-reading-time-sort="3">
 <div class="thumbnail">
-<p><a href="./research/anomaly.html" class="no-external"></a></p><a href="./research/anomaly.html" class="no-external">
-<p><img src="./img/anomaly.png" class="thumbnail-image"></p>
-</a><p><a href="./research/anomaly.html" class="no-external"></a></p>
+<p><a href="./research/anomaly.html"> <img src="./img/anomaly.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./research/anomaly.html">
 <h3 class="no-anchor listing-title">
-<a href="./research/anomaly.html" class="no-external">Anomaly detection</a>
+Anomaly detection
 </h3>
 <div class="listing-subtitle">
-<a href="./research/anomaly.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./research/anomaly.html" class="no-external">Anomaly detection aims at identifying rare items, events or observations which deviate…</a>
+<!-- desc(5A0113B34292)[max=100]:research/anomaly.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./research/anomaly.html" class="no-external"></a></p><a href="./research/anomaly.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./research/anomaly.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1706430647000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1129">
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1706430647835" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./research/volcano.html" class="no-external"></a></p><a href="./research/volcano.html" class="no-external">
-<p><img src="./img/volcano.png" class="thumbnail-image"></p>
-</a><p><a href="./research/volcano.html" class="no-external"></a></p>
+<p><a href="./research/volcano.html"> <img src="./img/volcano.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./research/volcano.html">
 <h3 class="no-anchor listing-title">
-<a href="./research/volcano.html" class="no-external">Computer Science and Volcanology</a>
+Computer Science and Volcanology
 </h3>
 <div class="listing-subtitle">
-<a href="./research/volcano.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./research/volcano.html" class="no-external">Volcanic hydrothermal systems are poorly-considered, long-fuse environmental time bombs. They…</a>
+<!-- desc(5A0113B34292)[max=100]:research/volcano.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./research/volcano.html" class="no-external"></a></p><a href="./research/volcano.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./research/volcano.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1706430713000" data-listing-reading-time-sort="5" data-listing-word-count-sort="906">
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1706430713372" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./research/satellite.html" class="no-external"></a></p><a href="./research/satellite.html" class="no-external">
-<p><img src="./img/satellite.png" class="thumbnail-image"></p>
-</a><p><a href="./research/satellite.html" class="no-external"></a></p>
+<p><a href="./research/satellite.html"> <img src="./img/satellite.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./research/satellite.html">
 <h3 class="no-anchor listing-title">
-<a href="./research/satellite.html" class="no-external">Satellite images analysis</a>
+Satellite images analysis
 </h3>
 <div class="listing-subtitle">
-<a href="./research/satellite.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./research/satellite.html" class="no-external">Remote sensing is an important technique for observing Earth surface applied to different areas…</a>
+<!-- desc(5A0113B34292)[max=100]:research/satellite.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./research/satellite.html" class="no-external"></a></p><a href="./research/satellite.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./research/satellite.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="5" data-listing-word-count-sort="910">
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./research/solar.html" class="no-external"></a></p><a href="./research/solar.html" class="no-external">
-<p><img src="./img/solar.png" class="thumbnail-image"></p>
-</a><p><a href="./research/solar.html" class="no-external"></a></p>
+<p><a href="./research/solar.html"> <img src="./img/solar.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./research/solar.html">
 <h3 class="no-anchor listing-title">
-<a href="./research/solar.html" class="no-external">Solar Image Processing</a>
+Solar Image Processing
 </h3>
 <div class="listing-subtitle">
-<a href="./research/solar.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./research/solar.html" class="no-external">We apply machine and deep learning techniques to the analysis of coronal images.</a>
+<!-- desc(5A0113B34292)[max=100]:research/solar.html -->
 </div>
+</a>
 </div>
 <div class="metadata">
-<p><a href="./research/solar.html" class="no-external"></a></p><a href="./research/solar.html" class="no-external">
-</a>
+<a href="./research/solar.html"> </a>
 </div>
 </div>
 </div>
@@ -358,158 +317,144 @@ No matching items
 <h2 data-anchor-id="past-projects">Past projects</h2>
 <div id="listing-researchold" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="4" data-listing-word-count-sort="704">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./researchold/bioinfo.html" class="no-external"></a></p><a href="./researchold/bioinfo.html" class="no-external">
-<p><img src="./img/microarray.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/bioinfo.html" class="no-external"></a></p>
+<p><a href="./researchold/bioinfo.html"> <img src="./img/microarray.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/bioinfo.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/bioinfo.html" class="no-external">Bioinformatics</a>
+Bioinformatics
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/bioinfo.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/bioinfo.html" class="no-external">Microarray images push to their limits classical analysis methods. New approaches are thus needed…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/bioinfo.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/bioinfo.html" class="no-external"></a></p><a href="./researchold/bioinfo.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/bioinfo.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1709635936068" data-listing-reading-time-sort="15" data-listing-word-count-sort="2931">
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1709635936000" data-listing-reading-time-sort="15">
 <div class="thumbnail">
-<p><a href="./researchold/brain.html" class="no-external"></a></p><a href="./researchold/brain.html" class="no-external">
-<p><img src="./img/brain.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/brain.html" class="no-external"></a></p>
+<p><a href="./researchold/brain.html"> <img src="./img/brain.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/brain.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/brain.html" class="no-external">Brain Image processing</a>
+Brain Image processing
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/brain.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/brain.html" class="no-external">Brain surfaces provide a reliable representation for cortical mapping. The construction of correct…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/brain.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/brain.html" class="no-external"></a></p><a href="./researchold/brain.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/brain.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1114">
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./researchold/geometry.html" class="no-external"></a></p><a href="./researchold/geometry.html" class="no-external">
-<p><img src="./img/homer.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/geometry.html" class="no-external"></a></p>
+<p><a href="./researchold/geometry.html"> <img src="./img/homer.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/geometry.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/geometry.html" class="no-external">Computational geometry</a>
+Computational geometry
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/geometry.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/geometry.html" class="no-external">We develop methods combining computational geometry and machine learning to retrieve 3D shapes…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/geometry.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/geometry.html" class="no-external"></a></p><a href="./researchold/geometry.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/geometry.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="./researchold/eit.html" class="no-external"></a></p><a href="./researchold/eit.html" class="no-external">
-<p><img src="./img/eit.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/eit.html" class="no-external"></a></p>
+<p><a href="./researchold/eit.html"> <img src="./img/eit.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/eit.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/eit.html" class="no-external">Deep Learning for Electrical Impedance Tomography</a>
+Deep Learning for Electrical Impedance Tomography
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/eit.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/eit.html" class="no-external">Electrical impedance tomography is an effective, non-ionizing, and inexpensive imaging modality…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/eit.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/eit.html" class="no-external"></a></p><a href="./researchold/eit.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/eit.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="./researchold/robotics.html" class="no-external"></a></p><a href="./researchold/robotics.html" class="no-external">
-<p><img src="./img/robot.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/robotics.html" class="no-external"></a></p>
+<p><a href="./researchold/robotics.html"> <img src="./img/robot.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/robotics.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/robotics.html" class="no-external">Social Robotics</a>
+Social Robotics
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/robotics.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/robotics.html" class="no-external">At the interface between Humanities and Engineering Sciences, we develop research activities on…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/robotics.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/robotics.html" class="no-external"></a></p><a href="./researchold/robotics.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/robotics.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="5">
 <div class="thumbnail">
-<p><a href="./researchold/thigh.html" class="no-external"></a></p><a href="./researchold/thigh.html" class="no-external">
-<p><img src="./img/thigh.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/thigh.html" class="no-external"></a></p>
+<p><a href="./researchold/thigh.html"> <img src="./img/thigh.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/thigh.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/thigh.html" class="no-external">Thigh image processing</a>
+Thigh image processing
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/thigh.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/thigh.html" class="no-external">Physical training, surgery or alterations in spontaneous activity are proved to induce changes in…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/thigh.html -->
 </div>
-</div>
-<div class="metadata">
-<p><a href="./researchold/thigh.html" class="no-external"></a></p><a href="./researchold/thigh.html" class="no-external">
 </a>
 </div>
+<div class="metadata">
+<a href="./researchold/thigh.html"> </a>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1688825838000" data-listing-reading-time-sort="4">
 <div class="thumbnail">
-<p><a href="./researchold/tracking.html" class="no-external"></a></p><a href="./researchold/tracking.html" class="no-external">
-<p><img src="./img/tracking.png" class="thumbnail-image"></p>
-</a><p><a href="./researchold/tracking.html" class="no-external"></a></p>
+<p><a href="./researchold/tracking.html"> <img src="./img/tracking.png" class="thumbnail-image"> </a></p>
 </div>
 <div class="body">
+<a href="./researchold/tracking.html">
 <h3 class="no-anchor listing-title">
-<a href="./researchold/tracking.html" class="no-external">Tracking</a>
+Tracking
 </h3>
 <div class="listing-subtitle">
-<a href="./researchold/tracking.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./researchold/tracking.html" class="no-external">2D multi-person pose estimation and 3D root-relative pose estimation from a monocular RGB camera…</a>
+<!-- desc(5A0113B34292)[max=100]:researchold/tracking.html -->
 </div>
+</a>
 </div>
 <div class="metadata">
-<p><a href="./researchold/tracking.html" class="no-external"></a></p><a href="./researchold/tracking.html" class="no-external">
-</a>
+<a href="./researchold/tracking.html"> </a>
 </div>
 </div>
 </div>
@@ -568,33 +513,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -663,15 +581,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  let localAlternateSentinel = 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -743,9 +659,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -755,17 +672,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -778,125 +686,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -940,7 +729,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -966,32 +754,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1052,7 +814,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-
 
 
 

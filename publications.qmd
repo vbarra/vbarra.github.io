@@ -64,15 +64,15 @@ about:
 ## Submitted
 ---
 
-**3- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
-
-**2- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 
+**2- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
 
  **1- ** L Vaslin, S Calvet, V. Barra, J Donini, <a href="https://arxiv.org/abs/2211.07446"target="_blank"> Fitting the BumpHunter test statistic distribution and global p-value estimation</a>, **SciPost Physics**, 2024.
 
 
 ## Journal articles
 ---
+
+**52- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics, **Journal of Computational Physics**, 2024 
 
  **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, <a href="https://www.frontiersin.org/articles/10.3389/feart.2024.1372621/abstract"target="_blank">External factors driving surface temperature changes above geothermal systems: answers from Deep Learning </a>, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
