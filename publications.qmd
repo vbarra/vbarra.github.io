@@ -72,7 +72,7 @@ about:
 ## Journal articles
 ---
 
-**52- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4638741"target="_blank"> ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics</a>, **Journal of Computational Physics**, 2024 
+**52- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, <a href="https://www.sciencedirect.com/science/article/pii/S0021999124004595"target="_blank"> ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics</a>, **Journal of Computational Physics**, 2024 
 
  **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, <a href="https://www.frontiersin.org/articles/10.3389/feart.2024.1372621/abstract"target="_blank">External factors driving surface temperature changes above geothermal systems: answers from Deep Learning </a>, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
 
