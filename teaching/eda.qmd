@@ -24,7 +24,7 @@ Introduction to exploratory Data Analysis. Applications in Python using <a href=
 5. Clustering algorithms
 6. Linear and logistic regression
 
-
+  
 
 
 
