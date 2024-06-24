@@ -25,36 +25,6 @@ Introduction to exploratory Data Analysis. Applications in Python using <a href=
 6. Linear and logistic regression
 
 
-#### **Example**
-
- Hierarchical clustering algorithm.
-
----
-```{python}
-import matplotlib
-import matplotlib.pyplot as plt
-
-from sklearn.datasets import make_blobs
-from sklearn.cluster import AgglomerativeClustering
-import numpy as np
-
-X, y = make_blobs(n_samples=50, centers=2,cluster_std = 0.3,random_state=42)
-from scipy.cluster.hierarchy import dendrogram
-
-def plot_dendrogram(modele, **kwargs):
-    plt.figure(figsize=(8,3))
-
-    children = modele.children_
-    distance = np.arange(children.shape[0])
-    # Nombre d'observations à chaque niveau de classes
-    nb_observations = np.arange(2, children.shape[0]+2)
-    linkage_matrix = np.column_stack([children, distance, nb_observations]).astype(float)
-
-    dendrogram(linkage_matrix, **kwargs)
-
-modele = AgglomerativeClustering(n_clusters=3,linkage="average").fit(X)
-plot_dendrogram(modele, labels=modele.labels_)
-```
 
 
 
