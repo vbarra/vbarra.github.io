@@ -36,7 +36,7 @@ We use magnetograms produced by the Helioseismic and Magnetic Imager (HMI) on bo
 
 
 ### Related publications
-1. M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** (2023, submitted)
+1. M Dannehl, V Delouille, V Barra,  An experimental study on EUV-to-magnetogram image translation using conditional Generative Adversarial Networks, **Earth and Space Science** 2024
 
 2. V Barra, V Delouille. Image-to-image translation model to generate magnetogram out of EUV images. In **Proc of Machine Learning in Heliophysics**, 2019.
 
