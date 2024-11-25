@@ -217,6 +217,8 @@ about:
 ## Conference proceedings
 ---
 
+**72-** I Sanou, J Baderot, A Hallal, V Barra, S Martinez, J Foucher, Deep Learning-Based on Feature Enhancement Module for Outer and Inner Object Segmentation in Semiconductor Images: Applications in Annotation and Metrology, Proceedings of QCAV 2025, Yamanashi, 4-4 june 2025
+
 **71-** G. Levillain, P. Beaurepaire, V. Barra, Neural network-based probability density function identification, 34-th European Safety and Reliability Conference, 2024
 
 **70-** G.M. Cherchi, A. Dequidt, V. Barra, P. Hauret, A. Guillin, N. Martzel, ML-Enhanced Generalized Langevin Equation for simulating Transient Anomalous Diffusion in Polymer Melts, Machine Learning and the Physical Sciences Workshop at the 37th conference on Neural Information Processing Systems (NeurIPS), 2023
