@@ -11,14 +11,15 @@ about:
 
 ### Current PhD students
 ---
-
+- A Bran, Anomaly detection for the search in New Physics, October 2024 (LPC, 50% <a href="https://annuaire.in2p3.fr/1627-8639/julien-donini" target="_blank"> J Donini </a>)
 - G Levillain, Identification of probability densities from data by a maximum entropy neural network, September 2022, September 2025 (70% <a href="http://www.institutpascal.uca.fr/index.php/fr/membres-m3g?idag=952" target="_blank"> P Beaurepaire</a>, Institut Pascal)
 - D Benhaddouche, Machine Learning for Structural Health Monitoring, September 2021-September 2024 (70% <a href="https://www.cideco.tech/societe-equipe/" target="_blank"> A Chateauneuf</a>, CIFRE CIDECO)
-- GM Cherchi, Analysis of latent space in Deep generative models and its applications to polymer dynamics, September 2021-September 2024 (ICCF/LMBP/Michelin, <a href="https://iccf.uca.fr/annuaire/m-alain-dequidt#/"target="_blank"> A Dequidt</a> 50%, <a href="https://fr.linkedin.com/in/nicolas-martzel-46a637128" target="_blank"> N Martzel</a> 20%)
+
 
 ### Past PhD students
 ---
 
+- GM Cherchi, Analysis of latent space in Deep generative models and its applications to polymer dynamics, September 2021-September 2024 (ICCF/LMBP/Michelin, <a href="https://iccf.uca.fr/annuaire/m-alain-dequidt#/"target="_blank"> A Dequidt</a> 50%, <a href="https://fr.linkedin.com/in/nicolas-martzel-46a637128" target="_blank"> N Martzel</a> 20%)
 - M Giannoulis, Deep Learning Analysis of multiple probe sensor networks to assess risk scenario's at volcanic hydrothermal ecosystems, January 2021-December 2023 (LMV, 50% <a href="https://lmv.uca.fr/harris-andrew/"target="_blank">  A Harris</a>)
 - A El Kaid, Pose estimation from monocular images using Deep Learning, october 2019 - December 2023 (50% <a href="http://ensias.um5.ac.ma/professor/m-karim-baina"target="_blank"> K Baina</a>, Rabat, Marroco, CIFRE Pryntec)
 - L Vaslin, Search for New Physics in the ATLAS experiment using semi-supervised or unsupervised Machine Learning techniques, October 2019-September 2022 (LPC, 70% <a href="https://annuaire.in2p3.fr/1627-8639/julien-donini" target="_blank"> J Donini </a>)
