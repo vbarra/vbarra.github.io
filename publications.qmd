@@ -217,7 +217,9 @@ about:
 ## Conference proceedings
 ---
 
-**72-** I Sanou, J Baderot, A Hallal, V Barra, S Martinez, J Foucher, Deep Learning-Based on Feature Enhancement Module for Outer and Inner Object Segmentation in Semiconductor Images: Applications in Annotation and Metrology, Proceedings of QCAV 2025, Yamanashi, 4-4 june 2025
+**72-** D. Benhaddouche, A. Chateauneuf , V. Barra, Spatio-temporal graph neural network for damage detection and global structural condition assessment, Proceedings of ICSI, Funchal, 1-4 september 2025
+
+**72-** I Sanou, J Baderot, A Hallal, V Barra, S Martinez, J Foucher, Deep Learning-Based on Feature Enhancement Module for Outer and Inner Object Segmentation in Semiconductor Images: Applications in Annotation and Metrology, Proceedings of QCAV 2025, Yamanashi, 1-4 june 2025
 
 **71-** G. Levillain, P. Beaurepaire, V. Barra, Neural network-based probability density function identification, 34-th European Safety and Reliability Conference, 2024
 
