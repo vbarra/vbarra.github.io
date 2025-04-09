@@ -65,9 +65,11 @@ about:
 ---
 
 
-**5- ** I W Sanou, J Baderot, A Hallal, V Barra, S Martinez, J Foucher, MAFE-SVD: Multi-scale Attention Feature Enhancement Based on Singular Value Decomposition for multi part segmentation, **Journal of Micro/Nanopatterning, Materials and Metrology**, 2025
+**6- ** I W Sanou, J Baderot, A Hallal, V Barra, S Martinez, J Foucher, MAFE-SVD: Multi-scale Attention Feature Enhancement Based on Singular Value Decomposition for multi part segmentation, **Journal of Visual Communication and Image Representation**, 2025
 
-**4- ** G Levillain, P Beaurepaire, V Barra, NeuralNetwork-basedMoments forProbabilityDensityFunction Identification, **Journal of Machine Learning Research**, 2025
+**5- ** I W Sanou, J Baderot, A Hallal, V Barra, L Mazauric, J Foucher, Deep Learning-Driven Automation of Inner and Outer Objects Segmentation in SEM/TEM Imaging for High-Throughput Semiconductor Metrology, **Journal of Micro/Nanopatterning, Materials and Metrology**, 2025
+
+**4- ** G Levillain, P Beaurepaire, V Barra, Neural Network-based Moments for Probability Density Function Identification, **Journal of Machine Learning Research**, 2025
 
 **3- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah, A Transformer-Based Explainable Deep Learning Model for Counterfactual Causal Intervention in Multivariate Spatio-Temporal Time Series Forecasting, **IEEE Transactions on Knowledge and Data Engineering**, 2025
 
