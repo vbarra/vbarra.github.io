@@ -47,7 +47,7 @@ about:
 
 ## Book chapters
 ---
-
+ 
  **5- ** G Fillières-Riveau, J-M Favreau, V Barra, G Touya. <a href="https://hal.science/hal-03401368" target="_blank"> Conception de cartes en relief pour les personnes déficientes visuelles</a> . In Cartographies en mouvement, Ed Territoires, pp 203-216, 2021.
 
  **4- ** V Barra. Mathématiques et Imagerie Médicale. In <a href="https://www.apmep.fr/Des-mathematiques-en-Auvergne"target="_blank"> Les mathématiques en Auvergne </a>, Ed Revue d’Auvergne, pp 81-108, 2014.
@@ -64,6 +64,7 @@ about:
 ## Submitted
 ---
 
+**6- ** I W Sanou, J Baderot, A Hallal, V Barra, J Foucher, MAFE-SVD: Multi-scale Contrast Enhancement and Edge-aware Segmentation using Singular Value Decomposition for Low-contrast Electron Microscopy Images, **IEEE Transactions on Industrial Informatics**, 2025
 
 **5- ** I W Sanou, J Baderot, A Hallal, V Barra, L Mazauric, J Foucher, Deep Learning-Driven Automation of Inner and Outer Objects Segmentation in SEM/TEM Imaging for High-Throughput Semiconductor Metrology, **Journal of Micro/Nanopatterning, Materials and Metrology**, 2025
 
