@@ -64,7 +64,7 @@ about:
 ## Submitted
 ---
 
-**7-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Conceptual Modeling of Counterfactual Causal Interventions for Trustworthy Spatio-Temporal Forecasting, 44th International Conference on Conceptual Modeling, 2025
+**7-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Conceptual Modeling of Counterfactual Causal Interventions for Trustworthy Spatio-Temporal Forecasting, **44th International Conference on Conceptual Modeling**, 2025
 
 **6- ** I W Sanou, J Baderot, A Hallal, V Barra, J Foucher, MAFE-SVD: Multi-scale Contrast Enhancement and Edge-aware Segmentation using Singular Value Decomposition for Low-contrast Electron Microscopy Images, **IEEE Transactions on Industrial Informatics**, 2025
 
