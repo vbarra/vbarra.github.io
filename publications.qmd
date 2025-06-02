@@ -227,7 +227,7 @@ about:
 ## Conference proceedings
 ---
 
-**75- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, **Metrology, Inspection, and Process Control**, 13426:551-560, 2025
+**75- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, Metrology, Inspection, and Process Control, 13426:551-560, 2025
 
 **74-** M. Grould, A. Seiller, J. Baderot, A. Guillin, V. Barra, L. Mazauric, A. Hallal, S. Martinez, J. Foucher, Process optimization assistant powered with AI driven digital twin: multiobjective processes use case, Proceedings of DTCO and Computational Patterning, SPIE advances Lithography and  PatterningLITHOGRAPHY, San Jose, 23-27 February, 2025.
 
