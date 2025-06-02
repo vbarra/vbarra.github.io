@@ -82,8 +82,6 @@ about:
 ## Journal articles
 ---
 
-**53- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, **Metrology, Inspection, and Process Control**, 13426:551-560, 2025
-
 **52- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, <a href="https://www.sciencedirect.com/science/article/pii/S0021999124004595"target="_blank"> ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics</a>, **Journal of Computational Physics**, 2024 
 
  **51- ** M Giannoulis, S Pailot-Bonnétat, V Barra, A Harris, <a href="https://www.frontiersin.org/articles/10.3389/feart.2024.1372621/abstract"target="_blank">External factors driving surface temperature changes above geothermal systems: answers from Deep Learning </a>, **Frontiers Special Issue "Applications of Machine Learning in Volcanology"**, 2024
@@ -228,6 +226,8 @@ about:
 
 ## Conference proceedings
 ---
+
+**75- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, **Metrology, Inspection, and Process Control**, 13426:551-560, 2025
 
 **74-** M. Grould, A. Seiller, J. Baderot, A. Guillin, V. Barra, L. Mazauric, A. Hallal, S. Martinez, J. Foucher, Process optimization assistant powered with AI driven digital twin: multiobjective processes use case, Proceedings of DTCO and Computational Patterning, SPIE advances Lithography and  PatterningLITHOGRAPHY, San Jose, 23-27 February, 2025.
 
