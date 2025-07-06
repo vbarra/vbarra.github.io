@@ -64,6 +64,8 @@ about:
 ## Submitted
 ---
 
+**9-** D Benhaddouche, Stiffness-based method for bridge damage detection using unsupervised deep learning, **Journal of Civil Structural Health Monitoring**, 2025
+
 **8-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Pattern Recognition**, 2025
 
 **7-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Conceptual Modeling of Counterfactual Causal Interventions for Trustworthy Spatio-Temporal Forecasting, **44th International Conference on Conceptual Modeling**, 2025
