@@ -64,6 +64,8 @@ about:
 ## Submitted
 ---
 
+**10-** F. Oueslati A. Ben  Abbess, V. Barra, Fourier-Optimal Loss for Distortion and Time in Non-Stationary Time Series Forecasting, **Neural Networks**, 2025
+
 **9-** D Benhaddouche, Stiffness-based method for bridge damage detection using unsupervised deep learning, **Journal of Civil Structural Health Monitoring**, 2025
 
 **8-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Pattern Recognition**, 2025
