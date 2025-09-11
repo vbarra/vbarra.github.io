@@ -231,7 +231,7 @@ about:
 ## Conference proceedings
 ---
 
-**76-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Trustworthy AI for Spatio-Temporal Forecasting via Counterfactual Causality, **Proceedings of 37th IEEE International Conference on Tools with Artificial Intelligence**, Athens November 2-5, 2025
+**76-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Trustworthy AI for Spatio-Temporal Forecasting via Counterfactual Causality, Proceedings of 37th IEEE International Conference on Tools with Artificial Intelligence, Athens November 2-5, 2025
 
 **75- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, Metrology, Inspection, and Process Control, 13426:551-560, 2025
 
