@@ -12,6 +12,7 @@ about:
 ### Current PhD students
 ---
 
+- N Ghariani, Hybrid Multivariate Time Series Forecasting through Enhanced Feature Extraction and Representation Learning, November 2025 (50% <a href="https://scholar.google.com/citations?hl=fr&user=8XnHzoQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">R Farah</a>, ENSI Tunis)
 - A Bran, Anomaly detection for the search in New Physics, October 2024 (LPC, 50% <a href="https://annuaire.in2p3.fr/1627-8639/julien-donini" target="_blank"> J Donini </a>)
 - G Levillain, Identification of probability densities from data by a maximum entropy neural network, September 2022, September 2025 (70% <a href="http://www.institutpascal.uca.fr/index.php/fr/membres-m3g?idag=952" target="_blank"> P Beaurepaire</a>, Institut Pascal)
 - D Benhaddouche, Machine Learning for Structural Health Monitoring, September 2021-September 2024 (70% <a href="https://www.cideco.tech/societe-equipe/" target="_blank"> A Chateauneuf</a>, CIFRE CIDECO)
