@@ -43,7 +43,7 @@ I’m a full professor in Computer Science at the <a href="http://limos.fr" targ
 
 I’m Vice dean of <a href="https://www.clermont-auvergne-inp.fr" target="_blank">  Clermont-Auvergne-INP </a>(education and training), and Artificial Intelligence Special Advisor for Clermont-Auvergne University.
 
-I'm a member of the scientific board and the Executive commitee of <a href="https://miai.univ-grenoble-alpes.fr/en/" target="_blank"> MIAI Cluster</a>.
+I'm deputy scientific director and member of the Executive commitee of <a href="https://miai.univ-grenoble-alpes.fr/en/" target="_blank"> MIAI Cluster</a>.
 
 
 
