@@ -68,13 +68,13 @@ about:
 
 **7-** D Benhaddouche, Stiffness-based method for bridge damage detection using unsupervised deep learning, **Journal of Civil Structural Health Monitoring**, 2025
 
-**6-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Pattern Recognition**, 2025
+**6-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Image and Vision Computing**, 2026
 
 **5- ** I W Sanou, J Baderot, A Hallal, V Barra, J Foucher, MAFE-SVD: Multi-scale Contrast Enhancement and Edge-aware Segmentation using Singular Value Decomposition for Low-contrast Electron Microscopy Images, **IEEE Transactions on Semiconductor Manufacturing**, 2025
 
 **4- ** G Levillain, P Beaurepaire, V Barra, Neural Network-based Moments for Probability Density Function Identification, **Probabilistic Engineering Mechanics**, 2025
 
-**3- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah, A Transformer-Based Explainable Deep Learning Model for Counterfactual Causal Intervention in Multivariate Spatio-Temporal Time Series Forecasting, **IEEE Transactions on Knowledge and Data Engineering**, 2025
+**3- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah, A Transformer-Based Explainable Deep Learning Model for Counterfactual Causal Intervention in Multivariate Spatio-Temporal Time Series Forecasting, **Neural Computing and Applications**, 2026
 
 **2- **O Chakoory,  S Comtet-Marre, U Troin, A Ceballos-Garzon, E Rochette, F Magne, E Merlin, V Barra, M Pons, P Peyret, Nearly perfect prediction of necrotizing enterocolitis from Deep neural network through dynamically species-level gut microbiome characterization in premature infants, **Gut**, 2024
 
