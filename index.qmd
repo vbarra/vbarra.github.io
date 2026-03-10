@@ -51,5 +51,6 @@ My research interests are centered on data analysis, viewed from both a methodol
 
 I mainly teach at <a href="http://www.isima.fr" target="_blank"> ISIMA</a>, an engineering school in computer science of Clermont-Auvergne INP.
 
-
-<img src="inp.png" width="100"><img src="MIAI.png" width="100"><img src="CNRS.png" width="100"><img src="limos.png" width="100">
+<center>
+<img src="inp.png" width="100" HSPACE="5"><img src="MIAI.png" width="100" HSPACE="5"><img src="CNRS.png" width="100" HSPACE="5"><img src="limos.png" width="100" HSPACE="5">
+</center>
