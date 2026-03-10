@@ -50,3 +50,6 @@ I'm deputy scientific director and member of the Executive commitee of <a href="
 My research interests are centered on data analysis, viewed from both a methodological and an applicative point of view. This include image and video processing, mesh processing, computational geometry, machine and deep learning.
 
 I mainly teach at <a href="http://www.isima.fr" target="_blank"> ISIMA</a>, an engineering school in computer science of Clermont-Auvergne INP.
+
+
+<img src="MIAI.png">
