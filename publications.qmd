@@ -84,6 +84,8 @@ about:
 ## Journal articles
 ---
 
+**54- ** D. Benhaddouche, V. Barra, A. Chateauneuf , <a href="https://www.sciencedirect.com/science/article/pii/S2452321626000211"target="_blank">Spatio-temporal graph neural network for damage detection and global structural condition assessment </a>, Procedia Structural Integrity, Vol 77:152-160,2026.
+
 **53- ** I W Sanou, J Baderot, A Hallal, V Barra, L Mazauric, J Foucher, Deep Learning-Driven Automation of Inner and Outer Objects Segmentation in SEM/TEM Imaging for High-Throughput Semiconductor Metrology, **Journal of Micro/Nanopatterning, Materials and Metrology**, 2025
 
 **52- ** G-M Cherchi, A Dequidt, A Guillin, N Martzel, P Hauret, V Barra, <a href="https://www.sciencedirect.com/science/article/pii/S0021999124004595"target="_blank"> ML-GLE: a machine learning enhanced Generalized Langevin equation framework for transient anomalous diffusion in polymer dynamics</a>, **Journal of Computational Physics**, 2024 
