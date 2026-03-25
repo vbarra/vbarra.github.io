@@ -233,6 +233,8 @@ about:
 ## Conference proceedings
 ---
 
+**77-** F. Piantoni, N. Robin, V. Barra, Understanding inequalities in migration. Rethinking actor dynamics through discourse, images, and narratives: an example from ECOWAS,  8ème Édition des REAF 2024, Université Côte d’Azur, Nice,Jul 2024, Nice, France
+
 **76-** A. Ferchichi, A. Ben Abbes, V. Barra, I.R. Farah, Trustworthy AI for Spatio-Temporal Forecasting via Counterfactual Causality, Proceedings of 37th IEEE International Conference on Tools with Artificial Intelligence, Athens November 2-5, 2025, <span style="color:red">best Paper Award </span>
 
 **75- ** I. Sanou, J. Baderot, A. Hallal, L. Mazauric, V. Barra, S. Martinez, J. Foucher, Metrology and segmentation in SEM/TEM imaging: accelerating semiconductor analysis through advanced deep learning techniques, Metrology, Inspection, and Process Control, 13426:551-560, 2025
