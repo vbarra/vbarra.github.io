@@ -66,11 +66,9 @@ about:
 
 
 
-**7-** D Benhaddouche, Stiffness-based method for bridge damage detection using unsupervised deep learning, **Journal of Civil Structural Health Monitoring**, 2025
+**6-** D Benhaddouche, Stiffness-based method for bridge damage detection using unsupervised deep learning, **Journal of Civil Structural Health Monitoring**, 2025
 
-**6-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Image and Vision Computing**, 2026
-
-
+**5-** Y. Bouaziz, V. Barra, Enhancing Multi-Label Learning in Visual Scenes with Logic Tensor Networks and Positive-Unlabeled Learning, **Image and Vision Computing**, 2026
 
 **4- ** G Levillain, P Beaurepaire, V Barra, Neural Network-based Moments for Probability Density Function Identification, **Probabilistic Engineering Mechanics**, 2025
 
