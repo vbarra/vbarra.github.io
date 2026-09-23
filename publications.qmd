@@ -82,6 +82,8 @@ about:
 ## Journal articles
 ---
 
+**57- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah.  A Transformer-Based Explainable Deep Learning Model for Counterfactual Causal Intervention in Multivariate Spatio-Temporal Time Series Forecasting, **Neural Computing and Applications**,  2027. (to appear) 
+
 **56- ** I W Sanou, J Baderot, A Hallal, V Barra, J Foucher, MAFE-SVD: Multi-scale Contrast Enhancement and Edge-aware Segmentation using Singular Value Decomposition for Low-contrast Electron Microscopy Images, **IEEE Transactions on Semiconductor Manufacturing**, 2026 (To Appear)
 
 **55-** F. Oueslati A. Ben  Abbess, V. Barra, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025526004664?DGCID=STMJ_220042_AUTH_SERV_PPUB" target="_blank">Fourier-Optimal Loss for Distortion and Time in Non-Stationary Time Series Forecasting </a>, **Information Sciences**, 2026 
