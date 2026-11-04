@@ -76,7 +76,7 @@ about:
 ## Journal articles
 ---
 
-**58- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah.  SYNAPSE: A Multi-Agent LLM Framework with Parameter-Free Cross-Attention Fusion for Interpretable Multimodal Spatio-Temporal Forecasting, **NeuroComputing**,  2027. (to appear) 
+**58- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah.  <a href="https://www.sciencedirect.com/science/article/pii/S0925231226029358?dgcid=coauthor" target="_blank">SYNAPSE: A Multi-Agent LLM Framework with Parameter-Free Cross-Attention Fusion for Interpretable Multimodal Spatio-Temporal Forecasting</a>, **NeuroComputing**,  2027. (to appear) 
 
 **57- ** A Ferchichi, A Ben Abbes, V Barra, I.R Farah.  A Transformer-Based Explainable Deep Learning Model for Counterfactual Causal Intervention in Multivariate Spatio-Temporal Time Series Forecasting, **Neural Computing and Applications**,  2027. (to appear) 
 
